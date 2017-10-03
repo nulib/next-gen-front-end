@@ -1,0 +1,18 @@
+.photo-box-image-wrapper {
+  display: block;
+  height: 265px;
+  overflow: hidden;
+}
+
+.photo-feature-3-across .photo-feature {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.landing-page #page.photo-grid-page {
+  margin-top: 5rem;
+}
+
+.photo-grid-page .web-form {
+  margin-bottom: 2rem
+}
