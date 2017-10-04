@@ -9,10 +9,27 @@
   overflow: hidden;
 }
 
-.landing-page #page.photo-grid-page {
+.landing-page #page.standard-page {
   margin-top: 5rem;
 }
 
 .photo-grid-page .web-form {
   margin-bottom: 2rem
+}
+
+.uv-viewer-wrapper {
+  margin-bottom: 2rem;
+}
+
+.item-detail-poster {
+  float: left;
+  max-width: 240px;
+  padding: 0 2rem 2rem 0;
+}
+
+.item-detail-metadata p {
+  margin-top: 0;
+}
+.item-detail-label {
+  font-weight: bold;
 }
