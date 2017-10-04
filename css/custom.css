@@ -21,12 +21,6 @@
   margin-bottom: 2rem;
 }
 
-.item-detail-poster {
-  float: left;
-  max-width: 240px;
-  padding: 0 2rem 2rem 0;
-}
-
 .item-detail-metadata p {
   margin-top: 0;
 }
