@@ -2,6 +2,7 @@
   display: block;
   height: 265px;
   overflow: hidden;
+  position: relative;
 }
 
 .photo-feature-3-across .photo-feature {
@@ -26,4 +27,18 @@
 }
 .item-detail-label {
   font-weight: bold;
+}
+
+.video-play-overlay {
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+.todo {
+    color: green;
+    border: 1px solid #efefef;
+    background: #efefef;
+    padding: 5px 10px;
 }

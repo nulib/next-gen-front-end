@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
@@ -214,47 +215,71 @@
     </nav>
     <div id="page" class="standard-page">
         <main id="main-content" class="content" tabindex="0">
+          <section class="large-feature">
+                <h3>Collection Info</h3>
+                <div class="large-feature-inner">
+                    <div class="content-side">
+                        <h4>Berkeley Folk Festival Collection</h4>
+                        <img src="images/set-page-holder-455x255.jpg" alt="">
+                        <div class="text">
+                            <p><i>Would this section serve any purpose, for general information on the Collection itself, to provide some context, additional links, gallery showings, etc?</i>  Used to highlight a topic with an image, description, and multiple links..</p>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <h4>Related Links</h4>
+                        <p>Lorem ipsum dolor sit amet, ei pri wisi quaestio iudicabit.</p>
+                        <ul>
+                            <li><a href="#">History of the Berkeley Folk Festival</a></li>
+                            <li><a href="#">Photographer Biography</a></li>
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Is this section necessary?</p>
+            </section>
+
+
           <div class="contain-1120">
-            <h2>Institutional Collections</h2>
+            <h2>Berkeley Folk Festival Collection</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <form class="web-form">
               <div class="field">
                   <input id="search-text" name="search-text" required="required" type="text" placeholder="Search Collections"/>
               </div>
+              <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Searching above would filter the current items based on search term.  We grab all collections as JSON, then let the front-end filter. Need a REST endpoint.</p>
             </form>
           </div>
           <div class="photo-grid contain-1120">
               <article class="photo-box">
-                  <a href="item-detail.html"><img src="images/sample-little-richard-265x265.jpg" alt="" /></a>
+                  <a href="item-detail.html" class="photo-box-image-wrapper"><img src="images/sample-little-richard-265x265.jpg" alt="" /></a>
                   <h4>Little Richard Poster</h4>
                   <p>Click this item to go to the Item Detail page.</p>
                   <p class="link"><a href="item-detail.html">Read more</a></p>
               </article>
               <article class="photo-box">
-                  <a href="#"><img src="images/265x265.png" alt="" /></a>
+                  <a href="#" class="photo-box-image-wrapper"><img src="images/sample-folk-song-jamboree.jpg" alt="" /></a>
+                  <h4>Folk Song Jamboree</h4>
+                  <p class="link"><a href="#">Read more</a></p>
+              </article>
+              <article class="photo-box">
+                  <a href="#" class="photo-box-image-wrapper"><img src="images/sample-lovin-spoonful.jpg" alt="" /></a>
+                  <h4>Lovin Spoonful</h4>
+                  <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                  <p class="link"><a href="#">Read more</a></p>
+              </article>
+              <article class="photo-box">
+                  <a href="#" class="photo-box-image-wrapper"><img src="images/sample-joan-baez.jpg" alt="" /></a>
+                  <h4>Joan Baez Live in Berkeley Poster</h4>
+                  <p class="link"><a href="#">Read more</a></p>
+              </article>
+              <article class="photo-box">
+                  <a href="#" class="photo-box-image-wrapper"><img src="images/sample-wild-west.jpg" alt="" /></a>
                   <h4>Lorem ipsum dolor sit amet</h4>
                   <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
                   <p class="link"><a href="#">Read more</a></p>
               </article>
               <article class="photo-box">
-                  <a href="#"><img src="images/265x265.png" alt="" /></a>
-                  <h4>Lorem ipsum dolor sit amet</h4>
-                  <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-                  <p class="link"><a href="#">Read more</a></p>
-              </article>
-              <article class="photo-box">
-                  <a href="#"><img src="images/265x265.png" alt="" /></a>
-                  <h4>Lorem ipsum dolor sit amet</h4>
-                  <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-                  <p class="link"><a href="#">Read more</a></p>
-              </article>
-              <article class="photo-box">
-                  <a href="#"><img src="images/265x265.png" alt="" /></a>
-                  <h4>Lorem ipsum dolor sit amet</h4>
-                  <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-                  <p class="link"><a href="#">Read more</a></p>
-              </article>
-              <article class="photo-box">
-                  <a href="#"><img src="images/265x265.png" alt="" /></a>
+                  <a href="#" class="photo-box-image-wrapper"><img src="images/sample-larry-hankin.jpg" alt="" /></a>
                   <h4>Lorem ipsum dolor sit amet</h4>
                   <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
                   <p class="link"><a href="#">Read more</a></p>

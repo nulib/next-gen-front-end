@@ -501,7 +501,7 @@ h6 {
 }
 
 /* line 70, /Library/WebServer/Documents/GIT/department-templates/scss/base/_typography.scss */
-.content em, .content i, .content-full em, .content-full i {
+.content em, .content-full em, .content-full i {
   font-family: "Akkurat Pro Italic", Arial, sans-serif;
   font-style: normal;
 }
@@ -4964,7 +4964,7 @@ footer a:hover {
   margin-left: 0;
 }
 
-/* line 25, /Library/WebServer/Documents/GIT/department-templates/scss/page-types/landing-page/_feature-boxes-2-columns.scss */
+
 .landing-page .feature-two-col .feature-box .feature-copy {
   padding: 1rem 1.5rem 4rem 1.5rem;
 }

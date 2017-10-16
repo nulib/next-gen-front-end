@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
@@ -148,15 +149,15 @@
                 <li><a href="#">Collections <span class="dropdown-arrow"></span></a>
                     <ul class="dropdown">
                         <li class="nav-intro">
-                            <p class="intro">Action-Based Navigation</p>
-                            <a href="set.html" class="button">View Set Page</a>
+                            <p class="intro">Text about some featured collection</p>
+                            <a href="set.html" class="button">View Featured Collection</a>
                         </li>
                         <li class="nav-links">
                             <ul>
-                                <li><a href="#">Link 1</a></li>
-                                <li><a href="#">Link 2</a></li>
-                                <li><a href="#">Link 3</a></li>
-                                <li><a href="#">Link 4</a></li>
+                                <li><a href="#">Berkeley Folk Festival</a></li>
+                                <li><a href="#">WWII Posters</a></li>
+                                <li><a href="#">University Archives Postcards</a></li>
+                                <li><a href="#">Ramon Casas Sketchbooks</a></li>
                                 <li><a href="#">Link 5</a></li>
                             </ul>
                         </li>
@@ -228,29 +229,36 @@
                 <h3>Explore Institutional Collections</h3>
                 <p><a href="#">View All Collections</a></p>
                 <p>Northwestern's Institutional Collections are a wide-ranging collection spanning cultures from .... more text goes here?</p>
+                <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> TODO: Get the data below from a REST endpoint</p>
+                <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> TODO: Convert the entries below to a "Netflix" carousel.</p>
             </div>
             <div class="photo-grid contain-1120">
                 <article class="photo-box">
-                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-little-richard.jpg" alt="Little Richard Poster" /></a>
-                    <h4>Little Richard Poster</h4>
+                    <a href="set.html" class="photo-box-image-wrapper">
+                      <img src="images/sample-little-richard.jpg" alt="Little Richard Poster" />
+                    </a>
+                    <h4>Berkely Folk Festival</h4>
+                    <p>Click this item to get to "Set" page</p>
+                    <p class="link"><a href="set.html">Read more</a></p>
+                </article>
+                <article class="photo-box">
+                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-wwII-collection.jpg" alt="Folk Song Jamboree" /></a>
+                    <h4>World War II Posters</h4>
                     <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
                     <p class="link"><a href="set.html">Read more</a></p>
                 </article>
                 <article class="photo-box">
-                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-folk-song-jamboree.jpg" alt="Folk Song Jamboree" /></a>
-                    <h4>Folk Song Jamboree Poster</h4>
-                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                    <a href="set.html" class="photo-box-image-wrapper">
+                      <img src="images/sample-postcards-collection.jpg" alt="Joan Baez" />
+                      <img src="images/video-play.png" class="video-play-overlay">
+                    </a>
+                    <h4>University Archives Postcards</h4>
+                    <p>This generically represents it could be a video or audio Collection</p>
                     <p class="link"><a href="set.html">Read more</a></p>
                 </article>
                 <article class="photo-box">
-                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-joan-baez.jpg" alt="Joan Baez" /></a>
-                    <h4>Joan Baez</h4>
-                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-                    <p class="link"><a href="set.html">Read more</a></p>
-                </article>
-                <article class="photo-box">
-                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-larry-hankin.jpg" alt="Larry Hankin" /></a>
-                    <h4>Larry Hankin Poster</h4>
+                    <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-cassas-collection.jpg" alt="Larry Hankin" /></a>
+                    <h4>Ramón Casas sketchbooks</h4>
                     <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
                     <p class="link"><a href="set.html">Read more</a></p>
                 </article>
@@ -261,55 +269,32 @@
             <div class="section-top contain-970">
                 <h3>Explore Creators</h3>
             </div>
-            <div class="photo-feature-3-across">
-          		<article class="photo-feature">
-          			<a href="#">
-          				<div class="front">
-          					<img alt="image description" src="images/sample-star-struck.jpg"/>
-          					<div class="text-over-image">
-          						<h4>Star Struck</h4>
-          						<p class="link">Learn more</p>
-          					</div>
-          				</div>
-          				<div class="back">
-          					<div class="back-text">
-          						<h4>Star Struck</h4>
-          						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          						<p class="link">Go to Site</p>
-          					</div>
-          				</div>
-          			</a>
-          		</article>
-          		 <article class="photo-feature">
-          			<a href="#">
-          				<div class="front">
-          					<img alt="image description" src="images/sample-wild-west-color.jpg"/>
-          					<div class="text-over-image">
-          						<h4>Wild West in Color</h4>
-          						<p class="link">Learn more</p>
-          					</div>
-          				</div>
-          			</a>
-          		</article>
-          		<article class="photo-feature">
-          			<a href="#">
-          				<div class="front">
-          					<img alt="image description" src="images/sample-wild-west.jpg"/>
-          					<div class="text-over-image">
-          						<h4>Wild West</h4>
-          						<p class="link">Learn more</p>
-          					</div>
-          				</div>
-          				<div class="back">
-          					<div class="back-text">
-          						<h4>Wild West</h4>
-          						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          						<p class="link">Go to Site</p>
-          					</div>
-          				</div>
-          			</a>
-          		</article>
-          	</div>
+            <div class="photo-grid contain-1120">
+                <article class="photo-box">
+                    <a href="#"><img src="images/265x265.png" alt="" /></a>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                    <p class="link"><a href="#">Read more</a></p>
+                </article>
+                <article class="photo-box">
+                    <a href="#"><img src="images/265x265.png" alt="" /></a>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                    <p class="link"><a href="#">Read more</a></p>
+                </article>
+                <article class="photo-box">
+                    <a href="#"><img src="images/265x265.png" alt="" /></a>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                    <p class="link"><a href="#">Read more</a></p>
+                </article>
+                <article class="photo-box">
+                    <a href="#"><img src="images/265x265.png" alt="" /></a>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+                    <p class="link"><a href="#">Read more</a></p>
+                </article>
+            </div>
           </section>
 
           <section>
