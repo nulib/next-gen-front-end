@@ -246,7 +246,11 @@
               <div class="field">
                   <input id="search-text" name="search-text" required="required" type="text" placeholder="Search Collections"/>
               </div>
-              <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Searching above would filter the current items based on search term.  We grab all collections as JSON, then let the front-end filter. Need a REST endpoint.</p>
+              <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> TODO: Need a REST endpoint to grab the info below.  The search box above will filter the current items locally (ideally not making new requests to the server).  We grab all collections as JSON, then let the front-end filter.  Unless the searching should grab from our entire collection... hmmm.</p>
+
+              <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> TODO: How do we handle pagination?  Does the endpoint return only 20 / 40 / 60 items say?   Then pagination makes a new request?</p>
+
+              <p class="todo"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> TODO: In the information displayed below, what do we currently have available to us?  Do we display all pieces, is it all necessary/possible?</p>
             </form>
           </div>
           <div class="photo-grid contain-1120">
