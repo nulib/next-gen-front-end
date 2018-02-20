@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
+  <link rel="stylesheet" href="css/swiper.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
@@ -18,7 +19,7 @@
   <title>Digital Collections - Libraries - Northwestern University</title>
 </head>
 
-<body>
+<body class="landing-page">
 
   <script>document.getElementsByTagName('body')[0].setAttribute('class','landing-page');</script>
   <!--[if lt IE 9]>
@@ -76,112 +77,112 @@ Date
     </div>
     <!--
     <div id="search" class="hide-mobile">
-      <div class="search-form searchblox">
-        <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
-          <label class="hide-label" for="q-desktop">Search this website</label>
-          <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
-          <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
-          <input type="hidden" name="advanced" value="false"/>
-          <button type="submit"><span class="hide-label">Search</span></button>
-        </form>
-      </div>
-    </div>
-  -->
-  </div>
-  <div id="mobile-links">
-    <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
-    <nav id="mobile-nav" aria-label="mobile menu">
-      <ul>
-        <li tabindex="0"><a href="#">About</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1 </a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-              <ul aria-expanded="false" aria-hidden="true">
-                <li><a href="#">Level 3, Link 2 the quick brown fox jumped over the lazy dog</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                  <ul aria-expanded="false" aria-hidden="true">
-                    <li><a href="#">Level 4, Link 1</a></li>
-                    <li><a href="#">Level 4, Link 2</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                      <ul aria-expanded="false" aria-hidden="true">
-                        <li><a href="#">Level 5, Link 1</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                          <ul aria-expanded="false" aria-hidden="true">
-                            <li><a href="#">Level 6, Link 1</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 5, Link 2</a></li>
-                        <li><a href="#" class="active">Level 5, Link 3</a></li>
-                        <li><a href="#">Level 5, Link 4</a></li>
-                        <li><a href="#">Level 5, Link 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Level 4, Link 3</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Level 3, Link 2</a></li>
-                <li><a href="#">Level 3, Link 3</a></li>
-                <li><a href="#">Level 3, Link 4</a></li>
-                <li><a href="#">Level 3, Link 5</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#">Academics</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Admissions</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Campus Life</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Research</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Giving</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-          <ul aria-expanded="false" aria-hidden="true">
-            <li><a href="#">Level 2, Link 1</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div id="mobile-nav-bottom">
-        <!-- from #global-links -->
-        <ul id="mobile-nav-bottom-left">
-          <li><a href="#">Global Link 1</a></li>
-          <li><a href="#">Global Link 2</a>
-            <ul>
-              <li><a href="#">Global Drop Link 1</a></li>
-              <li><a href="#">Global Drop Link 2</a></li>
-              <li><a href="#">Global Drop Link 3</a></li>
+    <div class="search-form searchblox">
+    <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+    <label class="hide-label" for="q-desktop">Search this website</label>
+    <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
+    <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+    <input type="hidden" name="advanced" value="false"/>
+    <button type="submit"><span class="hide-label">Search</span></button>
+  </form>
+</div>
+</div>
+-->
+</div>
+<div id="mobile-links">
+  <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+  <nav id="mobile-nav" aria-label="mobile menu">
+    <ul>
+      <li tabindex="0"><a href="#">About</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1 </a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+            <ul aria-expanded="false" aria-hidden="true">
+              <li><a href="#">Level 3, Link 2 the quick brown fox jumped over the lazy dog</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                <ul aria-expanded="false" aria-hidden="true">
+                  <li><a href="#">Level 4, Link 1</a></li>
+                  <li><a href="#">Level 4, Link 2</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                    <ul aria-expanded="false" aria-hidden="true">
+                      <li><a href="#">Level 5, Link 1</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
+                        <ul aria-expanded="false" aria-hidden="true">
+                          <li><a href="#">Level 6, Link 1</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Level 5, Link 2</a></li>
+                      <li><a href="#" class="active">Level 5, Link 3</a></li>
+                      <li><a href="#">Level 5, Link 4</a></li>
+                      <li><a href="#">Level 5, Link 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Level 4, Link 3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 3, Link 2</a></li>
+              <li><a href="#">Level 3, Link 3</a></li>
+              <li><a href="#">Level 3, Link 4</a></li>
+              <li><a href="#">Level 3, Link 5</a></li>
             </ul>
           </li>
         </ul>
-        <!-- from #quick-links -->
-        <ul id="mobile-nav-bottom-right">
-          <li><a href="#">Quick Link 1</a></li>
-          <li><a href="#">Quick Link 2</a></li>
-          <li><a href="#">Quick Link 3</a></li>
+      </li>
+      <li><a href="#">Academics</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1</a></li>
         </ul>
-      </div>
-    </nav>
-    <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
-    <div id="mobile-search">
-      <div class="search-form searchblox">
-        <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
-          <label class="hide-label" for="q-mobile">Search this website</label>
-          <input id="q-mobile" name="query" placeholder="Search this site" type="text"/>
-          <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
-          <input type="hidden" name="advanced" value="false"/>
-          <button type="submit"><span class="hide-label">Search</span></button>
-        </form>
-      </div>
+      </li>
+      <li><a href="#">Admissions</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Campus Life</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Research</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Giving</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+        <ul aria-expanded="false" aria-hidden="true">
+          <li><a href="#">Level 2, Link 1</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div id="mobile-nav-bottom">
+      <!-- from #global-links -->
+      <ul id="mobile-nav-bottom-left">
+        <li><a href="#">Global Link 1</a></li>
+        <li><a href="#">Global Link 2</a>
+          <ul>
+            <li><a href="#">Global Drop Link 1</a></li>
+            <li><a href="#">Global Drop Link 2</a></li>
+            <li><a href="#">Global Drop Link 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- from #quick-links -->
+      <ul id="mobile-nav-bottom-right">
+        <li><a href="#">Quick Link 1</a></li>
+        <li><a href="#">Quick Link 2</a></li>
+        <li><a href="#">Quick Link 3</a></li>
+      </ul>
+    </div>
+  </nav>
+  <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+  <div id="mobile-search">
+    <div class="search-form searchblox">
+      <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+        <label class="hide-label" for="q-mobile">Search this website</label>
+        <input id="q-mobile" name="query" placeholder="Search this site" type="text"/>
+        <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+        <input type="hidden" name="advanced" value="false"/>
+        <button type="submit"><span class="hide-label">Search</span></button>
+      </form>
     </div>
   </div>
+</div>
 </header>
 
 <nav id="top-nav" aria-label="main navigation menu">
@@ -296,7 +297,7 @@ Date
   </div>
 </nav>
 
-<div class="relative-wrapper contain-1440">
+<div class="relative-wrapper homepage-hero-wrapper contain-1440">
   <section class="contain-1440 home-search" id="library-search-dropdown" style="display: block;">
     <div class="contain-1120">
       <div class="section-top">
@@ -317,9 +318,9 @@ Date
     <!-- The hero image can align to left/center/right on mobile by changing the inline background-position property in .hero-image -->
     <div class="hero-image" style="background: url('images/alice-at-the-greek-1440x600.png') no-repeat center / cover">
       <div class="contain-1120">
-        <h2>Page Title</h2>
-        <p>Optional Subhead</p>
-        <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
+        <h2>Berkeley Folk Festival</h2>
+        <p>Summer of love - collection description here</p>
+        <a href="#" class="button" aria-label="enter descriptive text">View Collection</a>
       </div>
     </div>
     <div class="mobile-hero-text">
@@ -333,143 +334,332 @@ Date
 <div id="page">
   <main id="main-content" class="content" tabindex="0">
 
-    <section>
-      <div class="section-top contain-970">
-        <h3>Explore Institutional Collections</h3>
-        <p><a href="#">View All Collections</a></p>
-        <p>Northwestern's Institutional Collections are a wide-ranging collection spanning cultures from .... more text goes here?</p>
-      </div>
-      <div class="photo-grid contain-1120">
-        <article class="photo-box">
-          <a href="set.html" class="photo-box-image-wrapper">
-            <img src="images/sample-little-richard.jpg" alt="Little Richard Poster" />
-          </a>
-          <h4>Berkely Folk Festival</h4>
-          <p>Click this item to get to "Set" page</p>
-          <p class="link"><a href="set.html">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-wwII-collection.jpg" alt="Folk Song Jamboree" /></a>
-          <h4>World War II Posters</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="set.html">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="set.html" class="photo-box-image-wrapper">
-            <img src="images/sample-postcards-collection.jpg" alt="Joan Baez" />
-            <img src="images/video-play.png" class="video-play-overlay">
-          </a>
-          <h4>University Archives Postcards</h4>
-          <p>This generically represents it could be a video or audio Collection</p>
-          <p class="link"><a href="set.html">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-cassas-collection.jpg" alt="Larry Hankin" /></a>
-          <h4>Ramón Casas sketchbooks</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="set.html">Read more</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-top contain-970">
-        <h3>Explore Creators</h3>
-      </div>
-      <div class="photo-grid contain-1120">
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
+    <!-- Recently Digitized Items -->
+    <section class="standard-page contain-1120">
+      <h4>Recently Digitized Items
+        <a href="#" class="see-more-link"><small>See More</small></a>
+      </h4>
+      <div class="section showcase">
+        <div class="swiper-container" data-slides-per-view="6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">The Royal Ballet in The dream: at rehearsal</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the second image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">The Royal Ballet in The dream</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the fourth image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the 5 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the 6 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the 7 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/170x170.gif"/>
+              <div class="caption">This is a caption for the 8 image</div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <div class="section-top contain-970">
-        <h3>Explore Subjects</h3>
-      </div>
-      <div class="photo-grid contain-1120">
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
+
+    <!-- Recently Digitized Collections - Version #1 --->
+    <section class="standard-page contain-1120">
+      <h4>Recently Digitized and Updated Collections
+        <a href="#" class="see-more-link"><small>See More</small></a>
+      </h4>
+      <div class="section showcase nulib-showcase">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the first image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 2 image that could run really long like this</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 3 image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 4 image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 5 image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 6 image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the 7 image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                <span class="detail">Title for the first image</span>
+                <span class="num-items">154 items</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
 
+    <!-- Previous standard section -->
+    <!--
     <section>
-      <div class="section-top contain-970">
-        <h3>Explore Work Type</h3>
+    <div class="section-top contain-970">
+    <h3>Recently Digitized and Updated Collections</h3>
+    <p><a href="#">View All Collections</a></p>
+  </div>
+  <div class="photo-grid contain-1120">
+  <article class="photo-box">
+  <a href="set.html" class="photo-box-image-wrapper">
+  <img src="images/sample-little-richard.jpg" alt="Little Richard Poster" />
+</a>
+<h4>Berkely Folk Festival</h4>
+<p>Click this item to get to "Set" page</p>
+<p class="link"><a href="set.html">Read more</a></p>
+</article>
+<article class="photo-box">
+<a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-wwII-collection.jpg" alt="Folk Song Jamboree" /></a>
+<h4>World War II Posters</h4>
+<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+<p class="link"><a href="set.html">Read more</a></p>
+</article>
+<article class="photo-box">
+<a href="set.html" class="photo-box-image-wrapper">
+<img src="images/sample-postcards-collection.jpg" alt="Joan Baez" />
+<img src="images/video-play.png" class="video-play-overlay">
+</a>
+<h4>University Archives Postcards</h4>
+<p>This generically represents it could be a video or audio Collection</p>
+<p class="link"><a href="set.html">Read more</a></p>
+</article>
+<article class="photo-box">
+<a href="set.html" class="photo-box-image-wrapper"><img src="images/sample-cassas-collection.jpg" alt="Larry Hankin" /></a>
+<h4>Ramón Casas sketchbooks</h4>
+<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
+<p class="link"><a href="set.html">Read more</a></p>
+</article>
+</div>
+</section>
+-->
+
+    <!-- In-page secondary featured collection -->
+    <section class="standard-page">
+      <div class="section-top contain-1120">
+        <div class="section background-select">
+          <div class="background-select-image" style="background: url('http://common.northwestern.edu/v8/css/images/purple-slashes-standard.jpg') no-repeat center / cover">
+            <div class="contain-780">
+              <h3 class="background-select-header">Background Image</h3>
+              <p class="select-date">Optional Subhead</p>
+              <p>Used to showcase a single item such as news or an event.</p>
+              <a aria-label="enter descriptive text" class="button" href="#">Optional Button</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="photo-grid contain-1120">
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
-        <article class="photo-box">
-          <a href="#"><img src="images/265x265.png" alt="" /></a>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-          <p class="link"><a href="#">Read more</a></p>
-        </article>
+    </section>
+
+    <!-- Example Collection Lane --->
+    <section class="standard-page contain-1120">
+      <h4>Photography Collections
+        <a href="#" class="see-more-link"><small>See More</small></a>
+      </h4>
+      <div class="section showcase">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                This is a caption for the first image
+                <span class="caption-detail">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the second image <span class="caption-detail">31 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the third image <span class="caption-detail">287 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the fourth image <span class="caption-detail">150 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 5 image <span class="caption-detail">334 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 6 image <span class="caption-detail">451 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 7 image <span class="caption-detail">212 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 8 image <span class="caption-detail">6 items</span></div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Example Collection Lane --->
+    <section class="standard-page contain-1120">
+      <h4>Manuscript Collections
+        <a href="#" class="see-more-link"><small>See More</small></a>
+      </h4>
+      <div class="section showcase">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">
+                This is a caption for the first image
+                <span class="caption-detail">154 items</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the second image <span class="caption-detail">31 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the third image <span class="caption-detail">287 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the fourth image <span class="caption-detail">150 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 5 image <span class="caption-detail">334 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 6 image <span class="caption-detail">451 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 7 image <span class="caption-detail">212 items</span></div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 8 image <span class="caption-detail">6 items</span></div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Example Collection Lane --->
+    <section class="standard-page contain-1120">
+      <h4>University Archives Collections
+        <a href="#" class="see-more-link"><small>See More</small></a>
+      </h4>
+      <div class="section showcase">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the first image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the second image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the third image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the fourth image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 5 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 6 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 7 image</div>
+            </div>
+            <div class="swiper-slide">
+              <img alt="enter descriptive text" src="images/265x265.png"/>
+              <div class="caption">This is a caption for the 8 image</div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
 
   </main>
 </div>
+
 <footer>
   <div class="contain-970">
     <div class="footer-content">
@@ -519,7 +709,9 @@ Date
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/search.js"></script>
+<script type="text/javascript" src="js/lane-swiper.js"></script>
 </body>
 </html>

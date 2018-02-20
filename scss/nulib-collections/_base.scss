@@ -1,7 +1,49 @@
 main#main-content {
   position: relative;
+
+  .see-more-link {
+    margin-left: 1rem;
+    small {
+      font-size: .9rem;
+    }
+  }
 }
 
 .relative-wrapper {
   position: relative;
+}
+
+// Background Select module
+// http://www.northwestern.edu/templates/page-types/left-navigation/modules.html
+.background-select-header {
+  font: 42px $CamptonBook !important;
+  color: $white !important;
+  margin-bottom: 1rem;
+
+  &:before,
+  &:after {
+    background: none !important;
+    padding: 0 !important;
+  }
+}
+
+// Extra swiper code
+.standard-page {
+  .showcase {
+    &.nulib-showcase {
+      // Add support for caption plus number of items darker shading
+      .caption {
+        padding: 0;
+        .detail,
+        .num-items {
+          display: block;
+          padding: .5rem .75rem .25rem;
+        }
+        .num-items {
+          background: rgba(0, 0, 0, .1);
+          padding: .25rem .75rem .5rem;
+        }
+      }
+    }
+  }
 }
