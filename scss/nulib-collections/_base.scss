@@ -1,6 +1,38 @@
+
+#page {
+  // Add content margins
+  &.standard-margin {
+    // Taken from scss/page-types/standard-page/_main.scss:18
+    margin: 2rem auto 0 auto;
+    max-width: 1120px;
+    @extend %clearfix;
+  }
+}
+
+// Update sidebar and main content widths for Collection Items page
+#page.collection-items {
+  max-width: 1440px;
+  
+  #left-nav {
+    width: 30%;
+    @extend #main-content;
+    font-family: $AkkuratProRegular;
+    font-size: 14px;
+  }
+  #main-content {
+    &.content {
+      width: 68%;
+
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
 main#main-content {
   position: relative;
-
+  // Extra see more link in homepage
   .see-more-link {
     margin-left: 1rem;
     small {
@@ -13,6 +45,7 @@ main#main-content {
   position: relative;
 }
 
+// TODO: Still need this?
 // Background Select module
 // http://www.northwestern.edu/templates/page-types/left-navigation/modules.html
 .background-select-header {

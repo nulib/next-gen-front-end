@@ -36,7 +36,7 @@ table {
   border-spacing: 0; }
 
 #top-bar:after, #tab-content > div:after,
-.tab-content > div:after, #search:after, .standard-page #page:after, .standard-page .alternate-photo-float:after, .narrow-page #news-story .wrap:after, .standard-page .news-events-announcements:after, .standard-page .news:after, .standard-page .people-big .people-wrap:after, .standard-page .people-medium .people-wrap:after, .standard-page .people-small .people-wrap:after, .people-columns:after, .standard-page .photo-feature-2-across:after, .standard-page .photo-grid:after, .standard-page .plus-section:after, .standard-page .showcase .below-content:after, .landing-page #page:after, .landing-page .alternate-photo-float:after, .landing-page .feature-three-col:after, .landing-page .feature-four-col:after, .landing-page .large-feature-inner:after, .landing-page .news-event:after, .landing-page .news-box:after, .landing-page .news-events-announcements:after, .landing-page .news-events-announcements .column-wide:after, .landing-page .photo-feature-2-across:after, .landing-page .photo-feature-3-across:after, .landing-page .photo-grid:after, .landing-page .stats-callout:after, .landing-page .three-column-links:after {
+.tab-content > div:after, #search:after, .standard-page #page:after, .standard-page .alternate-photo-float:after, .narrow-page #news-story .wrap:after, .standard-page .news-events-announcements:after, .standard-page .news:after, .standard-page .people-big .people-wrap:after, .standard-page .people-medium .people-wrap:after, .standard-page .people-small .people-wrap:after, .people-columns:after, .standard-page .photo-feature-2-across:after, .standard-page .photo-grid:after, .standard-page .plus-section:after, .standard-page .showcase .below-content:after, .landing-page #page:after, .landing-page .alternate-photo-float:after, .landing-page .feature-three-col:after, .landing-page .feature-four-col:after, .landing-page .large-feature-inner:after, .landing-page .news-event:after, .landing-page .news-box:after, .landing-page .news-events-announcements:after, .landing-page .news-events-announcements .column-wide:after, .landing-page .photo-feature-2-across:after, .landing-page .photo-feature-3-across:after, .landing-page .photo-grid:after, .landing-page .stats-callout:after, .landing-page .three-column-links:after, #page.standard-margin:after {
   content: "";
   display: table;
   clear: both; }
@@ -105,7 +105,7 @@ a.screen-reader-shortcut {
   position: relative;
   background: #fff; }
 
-#main-content {
+#main-content, #page.collection-items #left-nav {
   font-size: 16px;
   line-height: 1.7em;
   outline: none !important; }
@@ -255,7 +255,7 @@ a[href$=".XLS"] {
   background: url("https://common.northwestern.edu/v8/css/images/icons/excel.png") no-repeat right center; }
 
 @media screen and (max-width: 1140px) {
-  #main-content .contain-1120 {
+  #main-content .contain-1120, #page.collection-items #left-nav .contain-1120 {
     margin-left: 1rem;
     margin-right: 1rem; }
 
@@ -2463,7 +2463,7 @@ header {
   max-width: 1120px; }
 .standard-page .hero + #page {
   margin-top: -1em; }
-.standard-page #main-content {
+.standard-page #main-content, .standard-page #page.collection-items #left-nav, #page.collection-items .standard-page #left-nav {
   min-height: 300px;
   margin-bottom: 5rem; }
 .standard-page .content {
@@ -4647,11 +4647,27 @@ input[type="submit"] {
   .caption a.button {
     background: #b6acd1;
     margin: 0; } }
-main#main-content {
+#page.standard-margin {
+  margin: 2rem auto 0 auto;
+  max-width: 1120px; }
+
+#page.collection-items {
+  max-width: 1440px; }
+  #page.collection-items #left-nav {
+    width: 30%;
+    font-family: "Akkurat Pro Regular", Arial, sans-serif;
+    font-size: 14px; }
+  #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
+    width: 68%; }
+    @media screen and (max-width: 700px) {
+      #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
+        width: 100%; } }
+
+main#main-content, #page.collection-items main#left-nav {
   position: relative; }
-  main#main-content .see-more-link {
+  main#main-content .see-more-link, #page.collection-items main#left-nav .see-more-link {
     margin-left: 1rem; }
-    main#main-content .see-more-link small {
+    main#main-content .see-more-link small, #page.collection-items main#left-nav .see-more-link small {
       font-size: .9rem; }
 
 .relative-wrapper {
@@ -4853,7 +4869,7 @@ main#main-content {
   text-align: center; }
 
 @media screen and (max-width: 1140px) {
-  #main-content #library-search-dropdown .contain-1120 {
+  #main-content #library-search-dropdown .contain-1120, #page.collection-items #left-nav #library-search-dropdown .contain-1120 {
     margin: 0; }
 
   #library-search-dropdown .advanced-search,
@@ -4981,6 +4997,57 @@ main#main-content {
     font: 28px/1.2em 'Campton Book', Tahoma, sans-serif;
     margin: 0.5em 0 1em;
     text-align: center; } }
+.photo-grid article p,
+.photo-grid article .item-count {
+  margin-top: .5rem; }
+.photo-grid article .item-count {
+  font: 14px/1.4em "Akkurat Pro Bold", "Arial Black", sans-serif;
+  color: #342f2e; }
+
+.standard-page #sidebar.collections-sidebar {
+  float: left;
+  margin: 0;
+  width: 30%; }
+  @media screen and (max-width: 700px) {
+    .standard-page #sidebar.collections-sidebar {
+      width: 100%;
+      float: none; } }
+  .standard-page #sidebar.collections-sidebar ul.no-style {
+    padding-left: 0; }
+    .standard-page #sidebar.collections-sidebar ul.no-style li {
+      background: none;
+      padding-left: 0; }
+  .standard-page #sidebar.collections-sidebar .web-form input {
+    width: 100%;
+    padding-right: 30px; }
+  .standard-page #sidebar.collections-sidebar .web-form .search-bar-wrapper {
+    position: relative; }
+  .standard-page #sidebar.collections-sidebar .web-form .sidebar-search-icon {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    color: #4e2a84;
+    font-size: 1.3rem; }
+
+ul.facet-list li {
+  padding-right: 30px;
+  position: relative; }
+  ul.facet-list li.active {
+    background: none;
+    font-family: "Akkurat Pro Bold", "Arial Black", sans-serif; }
+  ul.facet-list li .close {
+    color: #4e2a84;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    cursor: pointer; }
+  ul.facet-list li .count {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0; }
+
 .gradient-overlay {
   position: absolute;
   bottom: 0;
