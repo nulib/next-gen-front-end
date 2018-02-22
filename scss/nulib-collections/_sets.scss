@@ -11,37 +11,6 @@
   }
 }
 
-// Collections sidebar
-// Copied from #sidebar.box
-// scss/page-types/standard-page/_main.scss:64
-// .collections-sidebar {
-//   background: $nu-purple-10;
-//   padding: 1rem;
-//   margin-bottom: 2rem;
-//   font-size: 14px;
-//   line-height: 1.4em;
-//
-//   h3 {
-//       font: 18px/1.2em $CamptonBold;
-//       color: $rich-black-80;
-//   }
-//
-//   h4 {
-//       font: 16px/1.2em $AkkuratProBold;
-//       color: $rich-black-80;
-//       margin-top: inherit;
-//   }
-//
-//   ul {
-//       padding-left: .5rem;
-//
-//       li {
-//           background-position: 0 .3em
-//       }
-//   }
-// }
-
-
 // Collection Items page sidebar
 .standard-page #sidebar.collections-sidebar {
   float: left;
@@ -51,16 +20,6 @@
   @media screen and (max-width: 700px) {
     width: 100%;
     float: none;
-  }
-
-  // "un-style" a standard NU <ul> list
-  ul.no-style {
-    padding-left: 0;
-
-    li {
-      background: none;
-      padding-left: 0;
-    }
   }
 
   // Form elements

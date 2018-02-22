@@ -36,7 +36,7 @@ table {
   border-spacing: 0; }
 
 #top-bar:after, #tab-content > div:after,
-.tab-content > div:after, #search:after, .standard-page #page:after, .standard-page .alternate-photo-float:after, .narrow-page #news-story .wrap:after, .standard-page .news-events-announcements:after, .standard-page .news:after, .standard-page .people-big .people-wrap:after, .standard-page .people-medium .people-wrap:after, .standard-page .people-small .people-wrap:after, .people-columns:after, .standard-page .photo-feature-2-across:after, .standard-page .photo-grid:after, .standard-page .plus-section:after, .standard-page .showcase .below-content:after, .landing-page #page:after, .landing-page .alternate-photo-float:after, .landing-page .feature-three-col:after, .landing-page .feature-four-col:after, .landing-page .large-feature-inner:after, .landing-page .news-event:after, .landing-page .news-box:after, .landing-page .news-events-announcements:after, .landing-page .news-events-announcements .column-wide:after, .landing-page .photo-feature-2-across:after, .landing-page .photo-feature-3-across:after, .landing-page .photo-grid:after, .landing-page .stats-callout:after, .landing-page .three-column-links:after, #page.standard-margin:after {
+.tab-content > div:after, #search:after, .standard-page #page:after, .standard-page .alternate-photo-float:after, .narrow-page #news-story .wrap:after, .standard-page .news-events-announcements:after, .standard-page .news:after, .standard-page .people-big .people-wrap:after, .standard-page .people-medium .people-wrap:after, .standard-page .people-small .people-wrap:after, .people-columns:after, .standard-page .photo-feature-2-across:after, .standard-page .photo-grid:after, .standard-page .plus-section:after, .standard-page .showcase .below-content:after, .landing-page #page:after, .landing-page .alternate-photo-float:after, .landing-page .feature-three-col:after, .landing-page .feature-four-col:after, .landing-page .large-feature-inner:after, .landing-page .news-event:after, .landing-page .news-box:after, .landing-page .news-events-announcements:after, .landing-page .news-events-announcements .column-wide:after, .landing-page .photo-feature-2-across:after, .landing-page .photo-feature-3-across:after, .landing-page .photo-grid:after, .landing-page .stats-callout:after, .landing-page .three-column-links:after, #page.standard-margin:after, .item-summary-wrapper .item-summary:after {
   content: "";
   display: table;
   clear: both; }
@@ -4647,9 +4647,27 @@ input[type="submit"] {
   .caption a.button {
     background: #b6acd1;
     margin: 0; } }
+.standard-page .full-width .content {
+  float: none;
+  width: 100%; }
+
+ul.no-style {
+  padding-left: 0; }
+  ul.no-style li {
+    background: none;
+    padding-left: 0; }
+  ul.no-style.horizontal > li {
+    display: inline-block; }
+
+.fa {
+  font-family: "FontAwesome" !important; }
+
 #page.standard-margin {
   margin: 2rem auto 0 auto;
   max-width: 1120px; }
+#page.full-width {
+  width: 100%;
+  max-width: 100%; }
 
 #page.collection-items {
   max-width: 1440px; }
@@ -4658,7 +4676,7 @@ input[type="submit"] {
     font-family: "Akkurat Pro Regular", Arial, sans-serif;
     font-size: 14px; }
   #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
-    width: 68%; }
+    width: 67%; }
     @media screen and (max-width: 700px) {
       #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
         width: 100%; } }
@@ -5012,11 +5030,6 @@ main#main-content, #page.collection-items main#left-nav {
     .standard-page #sidebar.collections-sidebar {
       width: 100%;
       float: none; } }
-  .standard-page #sidebar.collections-sidebar ul.no-style {
-    padding-left: 0; }
-    .standard-page #sidebar.collections-sidebar ul.no-style li {
-      background: none;
-      padding-left: 0; }
   .standard-page #sidebar.collections-sidebar .web-form input {
     width: 100%;
     padding-right: 30px; }
@@ -5065,5 +5078,122 @@ ul.facet-list li {
   color: #fff;
   margin: 20px;
   padding: 20px; }
+
+.item-section {
+  padding: 2rem 0; }
+
+.item-viewer-wrapper {
+  background: #342f2e;
+  padding: 1.5rem 0; }
+  .item-viewer-wrapper .item-wrapper {
+    text-align: center;
+    padding-bottom: 1rem; }
+    .item-viewer-wrapper .item-wrapper img {
+      display: inline-block;
+      cursor: pointer; }
+  .item-viewer-wrapper .item-controls-wrapper .item-control {
+    color: #f0f0f0;
+    display: inline-block;
+    margin-left: 10px; }
+    .item-viewer-wrapper .item-controls-wrapper .item-control:first-of-type {
+      margin-left: 0; }
+
+.item-summary-wrapper {
+  background: #f0f0f0; }
+  .item-summary-wrapper .item-summary .item-left {
+    width: 50%;
+    float: left;
+    border-right: 1px solid #ccc;
+    padding-right: 10px; }
+    @media screen and (max-width: 700px) {
+      .item-summary-wrapper .item-summary .item-left {
+        width: 100%;
+        float: none; } }
+  .item-summary-wrapper .item-summary .item-right {
+    width: 50%;
+    float: right;
+    padding-left: 20px; }
+    .item-summary-wrapper .item-summary .item-right .summary-list-item {
+      width: 25%; }
+    @media screen and (max-width: 700px) {
+      .item-summary-wrapper .item-summary .item-right {
+        width: 100%;
+        float: none; } }
+  .item-summary-wrapper .item-summary .summary-list {
+    display: flex;
+    flex-wrap: nowrap; }
+    .item-summary-wrapper .item-summary .summary-list .summary-list-item {
+      width: 33%; }
+      .item-summary-wrapper .item-summary .summary-list .summary-list-item.social-media {
+        text-align: right; }
+        .item-summary-wrapper .item-summary .summary-list .summary-list-item.social-media .fa {
+          font-size: 2rem; }
+      .item-summary-wrapper .item-summary .summary-list .summary-list-item.permalink {
+        width: 50%; }
+      .item-summary-wrapper .item-summary .summary-list .summary-list-item.download {
+        width: 100%; }
+        .item-summary-wrapper .item-summary .summary-list .summary-list-item.download .data-value {
+          display: flex;
+          align-items: flex-end; }
+    .item-summary-wrapper .item-summary .summary-list .data-label {
+      font-family: "Akkurat Pro Bold", "Arial Black", sans-serif; }
+    .item-summary-wrapper .item-summary .summary-list .data-value {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .item-summary-wrapper .item-summary .permalink-wrapper {
+    display: flex;
+    justify-content: space-between; }
+    .item-summary-wrapper .item-summary .permalink-wrapper .permalink-input {
+      width: 80%; }
+    .item-summary-wrapper .item-summary .permalink-wrapper .button {
+      width: 20%;
+      margin: 0; }
+
+.download-option-box {
+  margin: 10px 10px 0 0;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background: #716c6b;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+  .download-option-box.big {
+    width: 120px;
+    height: 50px; }
+
+.item-categories-wrapper h4 {
+  font: 16px/1.2em "Akkurat Pro Bold", "Arial Black", sans-serif;
+  color: #342f2e; }
+.item-categories-wrapper .this-item-wrapper {
+  text-align: center; }
+  .item-categories-wrapper .this-item-wrapper .fa {
+    font-size: 6rem;
+    color: #f0f0f0; }
+  .item-categories-wrapper .this-item-wrapper img {
+    display: inline-block;
+    max-height: 200px; }
+.item-categories-wrapper .showcase {
+  margin-bottom: 1rem; }
+.item-categories-wrapper .cite-group-col {
+  float: left;
+  width: 50%; }
+.item-categories-wrapper .cite-group > p {
+  text-indent: -40px;
+  margin-left: 40px; }
+.item-categories-wrapper .timeliny {
+  padding: 5rem 0; }
+  .item-categories-wrapper .timeliny .timeliny-timeline .timeliny-timeblock.active .timeliny-dot {
+    border-color: #b6acd1;
+    background-color: #b6acd1; }
+  .item-categories-wrapper .timeliny .timeliny-dot:before, .item-categories-wrapper .timeliny .timeliny-dot:after {
+    color: #716c6b; }
+  .item-categories-wrapper .timeliny .timeliny-dot:before {
+    top: -3rem; }
+  .item-categories-wrapper .timeliny .timeliny-dot:after {
+    top: 3.6rem; }
 
 /*# sourceMappingURL=nulib.css.map */

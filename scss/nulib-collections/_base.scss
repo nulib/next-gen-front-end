@@ -1,3 +1,23 @@
+.standard-page .full-width .content {
+  float: none;
+  width: 100%;
+}
+
+// Unstyled lists
+ul.no-style {
+  @include ul-no-style();
+
+  &.horizontal {
+    > li {
+      display: inline-block;
+    }
+  }
+}
+
+// Font awesome
+.fa {
+  font-family: "FontAwesome" !important;
+}
 
 #page {
   // Add content margins
@@ -7,12 +27,18 @@
     max-width: 1120px;
     @extend %clearfix;
   }
+
+  // Full width standard page
+  &.full-width {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 // Update sidebar and main content widths for Collection Items page
 #page.collection-items {
   max-width: 1440px;
-  
+
   #left-nav {
     width: 30%;
     @extend #main-content;
@@ -21,7 +47,7 @@
   }
   #main-content {
     &.content {
-      width: 68%;
+      width: 67%;
 
       @media screen and (max-width: 700px) {
         width: 100%;
