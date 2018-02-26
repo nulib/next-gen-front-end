@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
-  <link rel="stylesheet" href="css/swiper.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/swiper/swiper.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
@@ -92,53 +92,16 @@ Date
   <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
   <nav id="mobile-nav" aria-label="mobile menu">
     <ul>
-      <li tabindex="0"><a href="#">About</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+      <li tabindex="0"><a href="#">About Digital Collections</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+      </li>
+      <li><a href="#">Browse</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
         <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Level 2, Link 1 </a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-            <ul aria-expanded="false" aria-hidden="true">
-              <li><a href="#">Level 3, Link 2 the quick brown fox jumped over the lazy dog</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                <ul aria-expanded="false" aria-hidden="true">
-                  <li><a href="#">Level 4, Link 1</a></li>
-                  <li><a href="#">Level 4, Link 2</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                    <ul aria-expanded="false" aria-hidden="true">
-                      <li><a href="#">Level 5, Link 1</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span>Submenu</a></span>
-                        <ul aria-expanded="false" aria-hidden="true">
-                          <li><a href="#">Level 6, Link 1</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Level 5, Link 2</a></li>
-                      <li><a href="#" class="active">Level 5, Link 3</a></li>
-                      <li><a href="#">Level 5, Link 4</a></li>
-                      <li><a href="#">Level 5, Link 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Level 4, Link 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Level 3, Link 2</a></li>
-              <li><a href="#">Level 3, Link 3</a></li>
-              <li><a href="#">Level 3, Link 4</a></li>
-              <li><a href="#">Level 3, Link 5</a></li>
-            </ul>
-          </li>
+          <li><a href="#">Subject</a></li>
+          <li><a href="#">Worktype</a></li>
+          <li><a href="#">Creator</a></li>
         </ul>
       </li>
-      <li><a href="#">Academics</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-        <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Level 2, Link 1</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Admissions</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-        <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Level 2, Link 1</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Campus Life</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-        <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Level 2, Link 1</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Research</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+      <li><a href="#">Collection Types</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
         <ul aria-expanded="false" aria-hidden="true">
           <li><a href="#">Level 2, Link 1</a></li>
         </ul>
@@ -158,24 +121,11 @@ Date
       </ul>
       <!-- from #quick-links -->
       <ul id="mobile-nav-bottom-right">
-        <li><a href="#">Quick Link 1</a></li>
-        <li><a href="#">Quick Link 2</a></li>
-        <li><a href="#">Quick Link 3</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
     </div>
   </nav>
   <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
-  <div id="mobile-search">
-    <div class="search-form searchblox">
-      <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
-        <label class="hide-label" for="q-mobile">Search this website</label>
-        <input id="q-mobile" name="query" placeholder="Search this site" type="text"/>
-        <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
-        <input type="hidden" name="advanced" value="false"/>
-        <button type="submit"><span class="hide-label">Search</span></button>
-      </form>
-    </div>
-  </div>
 </div>
 </header>
 
@@ -264,10 +214,10 @@ Date
       <div class="section showcase">
         <div class="swiper-container" data-slides-per-view="6">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <a href="item.html" class="swiper-slide">
               <img alt="enter descriptive text" src="images/170x170.gif"/>
               <div class="caption">The Royal Ballet in The dream: at rehearsal</div>
-            </div>
+            </a>
             <div class="swiper-slide">
               <img alt="enter descriptive text" src="images/170x170.gif"/>
               <div class="caption">This is a caption for the second image</div>
@@ -630,9 +580,9 @@ Date
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper/swiper.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/search.js"></script>
-<script type="text/javascript" src="js/lane-swiper.js"></script>
+<script type="text/javascript" src="js/custom-nulib-swiper.js"></script>
 </body>
 </html>

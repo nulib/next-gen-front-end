@@ -36,21 +36,24 @@ ul.no-style {
 }
 
 // Update sidebar and main content widths for Collection Items page
-#page.collection-items {
-  max-width: 1440px;
+#page {
+  &.collection-items,
+  &.search {
+    max-width: 1440px;
 
-  #left-nav {
-    width: 30%;
-    @extend #main-content;
-    font-family: $AkkuratProRegular;
-    font-size: 14px;
-  }
-  #main-content {
-    &.content {
-      width: 67%;
+    #left-nav {
+      width: 30%;
+      @extend #main-content;
+      font-family: $AkkuratProRegular;
+      font-size: 14px;
+    }
+    #main-content {
+      &.content {
+        width: 67%;
 
-      @media screen and (max-width: 700px) {
-        width: 100%;
+        @media screen and (max-width: 700px) {
+          width: 100%;
+        }
       }
     }
   }

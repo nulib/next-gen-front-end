@@ -12,7 +12,7 @@
 }
 
 // Collection Items page sidebar
-.standard-page #sidebar.collections-sidebar {
+.standard-page #sidebar.left-sidebar {
   float: left;
   margin: 0;
   width: 30%;
@@ -51,6 +51,7 @@ ul.facet-list {
     &.active {
       background: none;
       font-family: $AkkuratProBold;
+      padding-left: 1rem;
     }
 
     .close {

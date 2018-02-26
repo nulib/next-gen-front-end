@@ -124,10 +124,6 @@
 
 // Item categories accordions
 .item-categories-wrapper {
-  h4 {
-    font: 16px/1.2em $AkkuratProBold;
-    color: $rich-black-80;
-  }
   .this-item-wrapper {
     text-align: center;
 
@@ -138,6 +134,18 @@
     img {
       display: inline-block;
       max-height: 200px;
+    }
+  }
+
+  .see-more-link {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    border-bottom: 1px dashed $nu-purple;
+
+    &:hover {
+      border-bottom: 1px dashed $white;
+      text-decoration: none;
     }
   }
 

@@ -105,7 +105,7 @@ a.screen-reader-shortcut {
   position: relative;
   background: #fff; }
 
-#main-content, #page.collection-items #left-nav {
+#main-content, #page.collection-items #left-nav, #page.search #left-nav {
   font-size: 16px;
   line-height: 1.7em;
   outline: none !important; }
@@ -255,7 +255,7 @@ a[href$=".XLS"] {
   background: url("https://common.northwestern.edu/v8/css/images/icons/excel.png") no-repeat right center; }
 
 @media screen and (max-width: 1140px) {
-  #main-content .contain-1120, #page.collection-items #left-nav .contain-1120 {
+  #main-content .contain-1120, #page.collection-items #left-nav .contain-1120, #page.search #left-nav .contain-1120 {
     margin-left: 1rem;
     margin-right: 1rem; }
 
@@ -2463,7 +2463,7 @@ header {
   max-width: 1120px; }
 .standard-page .hero + #page {
   margin-top: -1em; }
-.standard-page #main-content, .standard-page #page.collection-items #left-nav, #page.collection-items .standard-page #left-nav {
+.standard-page #main-content, .standard-page #page.collection-items #left-nav, #page.collection-items .standard-page #left-nav, .standard-page #page.search #left-nav, #page.search .standard-page #left-nav {
   min-height: 300px;
   margin-bottom: 5rem; }
 .standard-page .content {
@@ -4669,23 +4669,23 @@ ul.no-style {
   width: 100%;
   max-width: 100%; }
 
-#page.collection-items {
+#page.collection-items, #page.search {
   max-width: 1440px; }
-  #page.collection-items #left-nav {
+  #page.collection-items #left-nav, #page.search #left-nav {
     width: 30%;
     font-family: "Akkurat Pro Regular", Arial, sans-serif;
     font-size: 14px; }
-  #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
+  #page.collection-items #main-content.content, #page.collection-items .content#left-nav, #page.search #main-content.content, #page.search .content#left-nav {
     width: 67%; }
     @media screen and (max-width: 700px) {
-      #page.collection-items #main-content.content, #page.collection-items .content#left-nav {
+      #page.collection-items #main-content.content, #page.collection-items .content#left-nav, #page.search #main-content.content, #page.search .content#left-nav {
         width: 100%; } }
 
-main#main-content, #page.collection-items main#left-nav {
+main#main-content, #page.collection-items main#left-nav, #page.search main#left-nav {
   position: relative; }
-  main#main-content .see-more-link, #page.collection-items main#left-nav .see-more-link {
+  main#main-content .see-more-link, #page.collection-items main#left-nav .see-more-link, #page.search main#left-nav .see-more-link {
     margin-left: 1rem; }
-    main#main-content .see-more-link small, #page.collection-items main#left-nav .see-more-link small {
+    main#main-content .see-more-link small, #page.collection-items main#left-nav .see-more-link small, #page.search main#left-nav .see-more-link small {
       font-size: .9rem; }
 
 .relative-wrapper {
@@ -4887,7 +4887,7 @@ main#main-content, #page.collection-items main#left-nav {
   text-align: center; }
 
 @media screen and (max-width: 1140px) {
-  #main-content #library-search-dropdown .contain-1120, #page.collection-items #left-nav #library-search-dropdown .contain-1120 {
+  #main-content #library-search-dropdown .contain-1120, #page.collection-items #left-nav #library-search-dropdown .contain-1120, #page.search #left-nav #library-search-dropdown .contain-1120 {
     margin: 0; }
 
   #library-search-dropdown .advanced-search,
@@ -5022,20 +5022,20 @@ main#main-content, #page.collection-items main#left-nav {
   font: 14px/1.4em "Akkurat Pro Bold", "Arial Black", sans-serif;
   color: #342f2e; }
 
-.standard-page #sidebar.collections-sidebar {
+.standard-page #sidebar.left-sidebar {
   float: left;
   margin: 0;
   width: 30%; }
   @media screen and (max-width: 700px) {
-    .standard-page #sidebar.collections-sidebar {
+    .standard-page #sidebar.left-sidebar {
       width: 100%;
       float: none; } }
-  .standard-page #sidebar.collections-sidebar .web-form input {
+  .standard-page #sidebar.left-sidebar .web-form input {
     width: 100%;
     padding-right: 30px; }
-  .standard-page #sidebar.collections-sidebar .web-form .search-bar-wrapper {
+  .standard-page #sidebar.left-sidebar .web-form .search-bar-wrapper {
     position: relative; }
-  .standard-page #sidebar.collections-sidebar .web-form .sidebar-search-icon {
+  .standard-page #sidebar.left-sidebar .web-form .sidebar-search-icon {
     position: absolute;
     top: 6px;
     right: 6px;
@@ -5048,7 +5048,8 @@ ul.facet-list li {
   position: relative; }
   ul.facet-list li.active {
     background: none;
-    font-family: "Akkurat Pro Bold", "Arial Black", sans-serif; }
+    font-family: "Akkurat Pro Bold", "Arial Black", sans-serif;
+    padding-left: 1rem; }
   ul.facet-list li .close {
     color: #4e2a84;
     position: absolute;
@@ -5165,9 +5166,6 @@ ul.facet-list li {
     width: 120px;
     height: 50px; }
 
-.item-categories-wrapper h4 {
-  font: 16px/1.2em "Akkurat Pro Bold", "Arial Black", sans-serif;
-  color: #342f2e; }
 .item-categories-wrapper .this-item-wrapper {
   text-align: center; }
   .item-categories-wrapper .this-item-wrapper .fa {
@@ -5176,6 +5174,14 @@ ul.facet-list li {
   .item-categories-wrapper .this-item-wrapper img {
     display: inline-block;
     max-height: 200px; }
+.item-categories-wrapper .see-more-link {
+  display: inline-block;
+  padding: 0;
+  background: none;
+  border-bottom: 1px dashed #4e2a84; }
+  .item-categories-wrapper .see-more-link:hover {
+    border-bottom: 1px dashed #fff;
+    text-decoration: none; }
 .item-categories-wrapper .showcase {
   margin-bottom: 1rem; }
 .item-categories-wrapper .cite-group-col {
