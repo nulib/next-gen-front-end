@@ -1,18 +1,23 @@
-# next-gen-front-end
-Sketch-pad HTML layouts for Northwestern Library's Next Generation presentation layer.  The idea is to use this repository as a place to experiment with different types of page layouts, without at live data attached.  Another good use of these files will be to take 'html notes', targeting which UI items need to be data-driven.
+# Next generation presentation layer hi-res mockups
+Sketch-pad HTML layouts for Northwestern Library's Next Generation presentation layer.  The idea is to use this repository as a place to experiment with different types of page layouts, without at live data attached. Just markup.
 
+### How to use
+To view latest `/master` branch go to: https://nulib.github.io/next-gen-front-end/
+
+To develop, start a local server and load `index.html` in any browser.  For example, to use lightweight `http-server`, do:
+
+`npm install http-server`, or if you prefer yarn `yarn add http-server` in your local project directory.  Then execute `http-server` in same directory and it will load the site with JavaScript dependencies.
+
+### Dependencies
 All layouts are created from assets in Northwestern's global marketing templates:
 https://github.com/nuwebcomm/templates
 
-Once pages/views are ready to wire-up, visit the following two repositories to continue development:
+There are some dependencies from these templates, but they're all hardcoded into the HTML pages in this repo.
 
-https://github.com/nulib/northwestern-react-components
-
-This is a repository which consists of ReactJS components, created from Northwestern's global marketing templates above.   They should remain un-specific to our Next Generation presentation layer, and exists on their own.  The idea is to have a collection of pre-built, stock NU ReactJS components which we can pull into our application, or other developers can pull into their Northwestern (non-Library) applications.
-
+### Related repositories
 https://github.com/nulib/next-gen-front-end-react
 
-This repository will be live development of the Next Generation presentation layer, connected to the Donut API(s) delivering whatever data we need.
+This repository will be live development of the Next Generation presentation layer, connected to our Hyrax application (Donut).  Currently using ReactJS/Redux for framework, handling all data flow and routing on the client-side.
 
-#### Preview at:
+### Preview:
 https://nulib.github.io/next-gen-front-end/
