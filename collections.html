@@ -1,313 +1,455 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
-  <link rel="stylesheet" href="css/swiper/swiper.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
-  <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
+        <link rel="stylesheet" href="css/swiper/swiper.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+        <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
-  <!-- <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
+        <!-- <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> -->
 
-  <title>Digital Collections - Libraries - Northwestern University</title>
-</head>
+            <title>Digital Collections - Libraries - Northwestern University</title>
+    </head>
 
-<body class="landing-page">
+    <body class="landing-page">
 
-  <!--[if lt IE 9]>
-  <div id="ie">
-  <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie8-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
-</div>
-<![endif]-->
-<!--
-<div id="emergency">
-<h2>Emergency Update</h2>
-<div id="emergency-content">
-<a href="http://www.northwestern.edu/news/breaking-news/">Breaking News Link</a><br /><br />
-Text which could be somewhat long because this would describe something that happened<br /><br />
-Date
-</div>
-</div>
--->
-<header>
-  <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
-  <div id="top-bar">
-    <div class="contain-1120">
-      <div id="left">
-        <div id="northwestern">
-          <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+        <!--[if lt IE 9]>
+            <div id="ie">
+            <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie8-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+            </div>
+        <![endif]-->
+        <!--
+            <div id="emergency">
+            <h2>Emergency Update</h2>
+            <div id="emergency-content">
+            <a href="http://www.northwestern.edu/news/breaking-news/">Breaking News Link</a><br /><br />
+            Text which could be somewhat long because this would describe something that happened<br /><br />
+            Date
+            </div>
+            </div>
+        -->
+        <header>
+            <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+            <div id="top-bar">
+                <div class="contain-1120">
+                    <div id="left">
+                        <div id="northwestern">
+                            <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+                        </div>
+                        <div id="parent-unit">
+                            <a href="#">Parent Unit Name</a>
+                        </div>
+                    </div>
+                    <div id="global-links" aria-label="global links navigation">
+                        <ul>
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a></li>
+                            <li class="resources">Global Dropdown <span class="dropdown-arrow"></span>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="quick-links" aria-label="quick links navigation">
+                <ul>
+                    <li><a href="#">Quick Link 1</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="bottom-bar" class="contain-1120">
+                <div id="site-name">
+                    <h1><a href="index.html">LIBRARIES - DIGITAL COLLECTIONS</a></h1>
+                </div>
+
+                <!--
+                    <div id="search" class="hide-mobile">
+                    <div class="search-form searchblox">
+                    <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                    <label class="hide-label" for="q-desktop">Search this website</label>
+                    <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
+                    <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                    <input type="hidden" name="advanced" value="false"/>
+                    <button type="submit"><span class="hide-label">Search</span></button>
+                    </form>
+                    </div>
+
+                    </div>
+                -->
+
+            </div>
+            <div id="mobile-links">
+                <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+                <nav id="mobile-nav" aria-label="mobile menu">
+                    <ul>
+                        <li tabindex="0"><a href="#">About Digital Collections</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                        </li>
+                        <li><a href="#">Browse</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Subject</a></li>
+                                <li><a href="#">Worktype</a></li>
+                                <li><a href="#">Creator</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Collection Types</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Level 2, Link 1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="mobile-nav-bottom">
+                        <!-- from #global-links -->
+                        <ul id="mobile-nav-bottom-left">
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- from #quick-links -->
+                        <ul id="mobile-nav-bottom-right">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+            </div>
+        </header>
+
+        <nav id="top-nav" aria-label="main navigation menu">
+            <div class="contain-1120">
+                <ul>
+                    <li><a href="#">About Digital Collections</a>
+                    </li>
+                    <li><a href="#">Browse <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li>
+                                <ul>
+                                    <li><a href="#">Subject</a></li>
+                                    <li><a href="#">Worktype</a></li>
+                                    <li><a href="#">Creator</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Collection Types <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li class="nav-intro">
+                                <p class="intro">Header</p>
+                                <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
+                            </li>
+                            <li class="nav-links">
+                                <ul>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                    <li><a href="#">Link 5</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="library-search-button">
+                        <a href="#">&nbsp;<span class="hide-label">Click to open search menu</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search Wrapper -->
+        <div class="relative-wrapper contain-1440">
+            <section class="contain-1440 home-search" id="library-search-dropdown">
+                <div class="contain-1120">
+                    <div class="section-top">
+                        <p class="subhead">Explore 729,730 items digitized from Northwestern's digital collections.</p>
+                    </div>
+                    <div class="for-column">
+                        <span>for</span>
+                        <input class="searchbox" maxlength="256" name="query" placeholder="Ex: Cleopatra" size="20" title="search" type="text" value="">
+                        <button type="submit"><span class="hide-label">Search</span></button>
+                        <div class="advanced-search">
+                            <a href="#">Advanced Search</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div id="parent-unit">
-          <a href="#">Parent Unit Name</a>
+
+
+
+        <div id="page" class="standard-margin">
+            <main id="main-content" class="content" tabindex="0">
+
+            <!-- Breadcrumbs -->
+            <section class="contain-1120">
+                <ul id="breadcrumbs">
+                    <li><a href="collections.html">Collections</a></li>
+                    <li class="active">All Collections</li>
+                </ul>
+            </section>
+
+            <div class="contain-1120">
+                <h2>All Collections</h2>
+            </div>
+            <div class="photo-grid contain-1120">
+                <!-- start content -->
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Digital Image Library" src="https://images.northwestern.edu/image-service/inu-dil-adfa7c65-6067-4326-9f41-e2b3328aee29/square/,250/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Digital Image Library</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="World War II Poster Collection at Northwestern University Library" src="https://images.northwestern.edu/image-service/inu-dil-b49c918b-d945-4905-ba63-f668157885e2/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">World War II Poster Collection at Northwestern University Library</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Posters from the Herskovits Library" src="http://images.northwestern.edu/image-service/inu-dil-e6dc940e-fcf5-4bc6-a152-7de3bf4ff132/220,700,1600,1600/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Posters from the Herskovits Library</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Hamid Naficy Iranian Movie Posters Collection" src="https://images.library.northwestern.edu/image-service/inu-dil-c8ff7ecf-02cc-4a57-87dc-0ea003b7b4b9/1000,1000,6400,6400/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Hamid Naficy Iranian Movie Posters Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Ramón Casas sketchbooks" src="https://images.library.northwestern.edu/image-service/inu-dil-009659dc-4453-4e58-97ab-b7fc1f4ca7aa/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Ramón Casas sketchbooks</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="University Archives Postcards" src="http://images.northwestern.edu/image-service/inu-dil-0ec605c7-e63f-4e4f-843d-7b508a2ce1f6/1000,600,2650,2650/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">University Archives Postcards</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Alexander Hesler Photograph Collection" src="https://images.northwestern.edu/image-service/inu-dil-b3322e88-59b1-4d8b-aae2-0a95b7a9e448/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Alexander Hesler Photograph Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Vernon McKay Photographs" src="http://images.northwestern.edu/image-service/inu-dil-e22d1a90-2ccd-4d98-aee9-274e4e6e46e5/2000,800,3500,3500/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Vernon McKay Photographs</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Wilmo Engine Company dealer's sample catalog" src="http://images.northwestern.edu/image-service/inu-dil-2b93c693-f836-4a19-bdaf-eabb6472a389/1700,450,4000,4000/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Wilmo Engine Company dealer's sample catalog</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Rob Linrothe Image Collection" src="https://images.northwestern.edu/image-service/inu-dil-5c77ef42-4607-48a0-ac18-b18fb9758ab5/square/,265/0/default.jpg "/></a>
+                    <h4 id="grid1"><a href="#">Rob Linrothe Image Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Une cité moderne : dessins, by Rob Mallet-Stevens" src="http://images.northwestern.edu/image-service/inu-dil-80c05977-0872-4f0e-af2e-fa0606a6eac7/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Une cité moderne : dessins, by Rob Mallet-Stevens</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Justine Cordwell Collection" src="http://images.northwestern.edu/image-service/inu-dil-227b0bcd-c98a-4b28-bd0d-c501451924a7/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Justine Cordwell Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Department of Art History, Study Photographs Collection" src="http://images.northwestern.edu/image-service/inu-dil-515130b5-c7b5-480e-879c-1ff5430997f7/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Department of Art History, Study Photographs Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Jim Roberts Photographs, 1968-1972" src="http://images.northwestern.edu/image-service/inu-dil-d9293549-b540-4cf0-a191-fdc6d2dce3f2/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Jim Roberts Photographs, 1968-1972</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Kate and Lou. Souvenir of auto trip to San Francisco, 1915" src="https://images.northwestern.edu/image-service/inu-dil-a6777118-6bd5-4942-b189-8138fd0167be/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Kate and Lou. Souvenir of auto trip to San Francisco, 1915</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="George Silas Duntley (1879-1957) Photographs, circa 1899-1918" src="http://images.northwestern.edu/image-service/inu-dil-a1e041a0-c926-4079-9834-3ef42c8069d3/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">George Silas Duntley (1879-1957) Photographs, circa 1899-1918</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Ira Silverman Railroad Menu Collection" src="http://images.northwestern.edu/image-service/inu-dil-fca23576-fd79-4ad8-bbe4-e2c97fe8711b/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Ira Silverman Railroad Menu Collection</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Depictions of Africa in French humour magazines" src="http://images.northwestern.edu/image-service/inu-dil-ae60146b-b762-4a26-9738-9c8dd56ffe03/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Depictions of Africa in French humour magazines</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="WPA Digital Collection, 1935-1943" src="http://images.northwestern.edu/image-service/inu-dil-bd6ef6a0-06c6-41e2-8e9f-e0bc0827f750/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">WPA Digital Collection, 1935-1943</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Photographs of Zanzibar" src="https://images.northwestern.edu/image-service/inu-dil-d575ff6b-01a7-4683-b1a3-e4e5f31ae9c0/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Photographs of Zanzibar</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Ifeoma Onyefulu : photographs" src="https://images.northwestern.edu/image-service/inu-dil-c90c7343-afc1-41bf-8d62-9a90d77dcf24/2000,800,3500,3500/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Ifeoma Onyefulu : photographs</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="United States Army Base Hospital Number 12 World War I and II Records" src="https://images.northwestern.edu/image-service/inu-dil-36db1ce2-cb71-4a1a-bca7-8944348adb26/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">United States Army Base Hospital Number 12 World War I and II Records</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="The Siege and Commune of Paris, 1870-1871" src="http://images.northwestern.edu/image-service/inu-dil-4ee6d577-7efc-4093-ab5b-f812133730df/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">The Siege and Commune of Paris, 1870-1871</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="La Caricature (1830-1835; Charles Philipon, founding editor)" src="http://images.northwestern.edu/image-service/inu-dil-c7709f23-2ade-4f32-b851-c0e4dca8dcc2/1700,450,4000,4000/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">La Caricature (1830-1835; Charles Philipon, founding editor)</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="La Caricature (1880-1893, 1899; Albert Robida, founding editor)" src="http://images.northwestern.edu/image-service/inu-dil-aa8b5fa5-7a68-4ba3-a1a7-b91dedb652f8/1700,450,4000,4000/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">La Caricature (1880-1893, 1899; Albert Robida, founding editor)</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="16th-Early 20th Century Maps of Africa" src="https://images.library.northwestern.edu/image-service/inu-dil-a53e44f8-2105-4f1c-a5a8-51864fb9ed31/square/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">16th-Early 20th Century Maps of Africa</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article>
+
+
+                <article aria-labelledby="grid1" class="photo-box">
+                    <a href="collection-items.html"><img alt="Records of the Bursar’s Office Takeover, May 1968" src="http://images.northwestern.edu/image-service/inu-dil-54533d95-f58b-4336-b276-4e432cc407d6/2100,550,1320,1320/,265/0/default.jpg"/></a>
+                    <h4 id="grid1"><a href="#">Records of the Bursar’s Office Takeover, May 1968</a></h4>
+                    <div class="item-count">143 Items</div>
+                </article> 
+                <!-- end content-->
+            </div>
+            </main>
         </div>
-      </div>
-      <div id="global-links" aria-label="global links navigation">
-        <ul>
-          <li><a href="#">Global Link 1</a></li>
-          <li><a href="#">Global Link 2</a></li>
-          <li class="resources">Global Dropdown <span class="dropdown-arrow"></span>
-            <ul>
-              <li><a href="#">Global Drop Link 1</a></li>
-              <li><a href="#">Global Drop Link 2</a></li>
-              <li><a href="#">Global Drop Link 3</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="quick-links" aria-label="quick links navigation">
-    <ul>
-      <li><a href="#">Quick Link 1</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-  <div id="bottom-bar" class="contain-1120">
-    <div id="site-name">
-      <h1><a href="index.html">LIBRARIES - DIGITAL COLLECTIONS</a></h1>
-    </div>
+        <footer>
+            <div class="contain-970">
+                <div class="footer-content">
+                    <a href="http://www.northwestern.edu"><img src="https://common.northwestern.edu/v8/css/images/northwestern-university.svg" alt="Northwestern University" /></a>
+                    <ul>
+                        <li>&copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Northwestern University</li>
+                            <li><a href="http://www.northwestern.edu/contact.html">Contact Northwestern University</a></li>
+                            <li><a href="http://www.northwestern.edu/hr/careers/">Careers</a></li>
+                            <li><a href="http://www.northwestern.edu/disclaimer.html">Disclaimer</a></li>
+                            <li><a href="http://www.northwestern.edu/emergency/index.html">Campus Emergency Information</a></li>
+                            <li><a href="http://policies.northwestern.edu/">University Policies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content contact">
+                    <ul>
+                        <li class="footer-pin-icon"><span class="hide-label">Address</span></li>
+                        <li>1970 Campus Drive</li>
+                        <li>Evanston, IL 60208</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-phone-icon"><span class="hide-label">Phone number</span></li>
+                        <li>(847) 491-7658</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-email-icon"><span class="hide-label">Email address</span></li>
+                        <li><a href="mailto:library@northwestern.edu">library@northwestern.edu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <!-- change (department name) to your dept. -->
+                    <p><strong>(Department Name) Social Media</strong></p>
+                    <a href="#" class="social github">Github</a>
+                    <a href="#" class="social facebook">Facebook</a>
+                    <a href="#" class="social twitter">Twitter</a>
+                    <a href="#" class="social social instagram">Instagram</a>
+                </div>
+                <div class="footer-content">
+                    <ul>
+                        <li><a href="http://northwestern.libanswers.com/">FAQs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/support/index.html">Support Us</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/library-jobs/index.html">Library Jobs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/administration/policies/index.html">Library Policies</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/contact/general-feedback.html">Provide Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
-    <!--
-    <div id="search" class="hide-mobile">
-    <div class="search-form searchblox">
-    <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
-    <label class="hide-label" for="q-desktop">Search this website</label>
-    <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
-    <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
-    <input type="hidden" name="advanced" value="false"/>
-    <button type="submit"><span class="hide-label">Search</span></button>
-  </form>
-</div>
-
-</div>
--->
-
-</div>
-<div id="mobile-links">
-  <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
-  <nav id="mobile-nav" aria-label="mobile menu">
-    <ul>
-      <li tabindex="0"><a href="#">About Digital Collections</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-      </li>
-      <li><a href="#">Browse</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-        <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Subject</a></li>
-          <li><a href="#">Worktype</a></li>
-          <li><a href="#">Creator</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Collection Types</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
-        <ul aria-expanded="false" aria-hidden="true">
-          <li><a href="#">Level 2, Link 1</a></li>
-        </ul>
-      </li>
-    </ul>
-    <div id="mobile-nav-bottom">
-      <!-- from #global-links -->
-      <ul id="mobile-nav-bottom-left">
-        <li><a href="#">Global Link 1</a></li>
-        <li><a href="#">Global Link 2</a>
-          <ul>
-            <li><a href="#">Global Drop Link 1</a></li>
-            <li><a href="#">Global Drop Link 2</a></li>
-            <li><a href="#">Global Drop Link 3</a></li>
-          </ul>
-        </li>
-      </ul>
-      <!-- from #quick-links -->
-      <ul id="mobile-nav-bottom-right">
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
-  <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
-</div>
-</header>
-
-<nav id="top-nav" aria-label="main navigation menu">
-  <div class="contain-1120">
-    <ul>
-      <li><a href="#">About Digital Collections</a>
-      </li>
-      <li><a href="#">Browse <span class="dropdown-arrow"></span></a>
-        <ul class="dropdown" aria-label="navigation submenu">
-          <li>
-            <ul>
-              <li><a href="#">Subject</a></li>
-              <li><a href="#">Worktype</a></li>
-              <li><a href="#">Creator</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="#">Collection Types <span class="dropdown-arrow"></span></a>
-        <ul class="dropdown" aria-label="navigation submenu">
-          <li class="nav-intro">
-            <p class="intro">Header</p>
-            <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
-          </li>
-          <li class="nav-links">
-            <ul>
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-              <li><a href="#">Link 4</a></li>
-              <li><a href="#">Link 5</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li id="library-search-button">
-        <a href="#">&nbsp;<span class="hide-label">Click to open search menu</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- Search Wrapper -->
-<div class="relative-wrapper contain-1440">
-  <section class="contain-1440 home-search" id="library-search-dropdown">
-    <div class="contain-1120">
-      <div class="section-top">
-        <p class="subhead">Explore 729,730 items digitized from Northwestern's digital collections.</p>
-      </div>
-      <div class="for-column">
-        <span>for</span>
-        <input class="searchbox" maxlength="256" name="query" placeholder="Ex: Cleopatra" size="20" title="search" type="text" value="">
-        <button type="submit"><span class="hide-label">Search</span></button>
-        <div class="advanced-search">
-          <a href="#">Advanced Search</a>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-
-
-<div id="page" class="standard-margin">
-  <main id="main-content" class="content" tabindex="0">
-
-    <!-- Breadcrumbs -->
-    <section class="contain-1120">
-      <ul id="breadcrumbs">
-        <li><a href="collections.html">Collections</a></li>
-        <li class="active">All Collections</li>
-      </ul>
-    </section>
-
-    <div class="contain-1120">
-      <h2>All Collections</h2>
-    </div>
-    <div class="photo-grid contain-1120">
-      <article aria-labelledby="grid1" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="https://common.northwestern.edu/v8/css/images/female-no-image.jpg"/></a>
-        <h4 id="grid1"><a href="#">Collection Item #1</a></h4>
-        <div class="item-count">143 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid2" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="https://common.northwestern.edu/v8/css/images/male-no-image.jpg"/></a>
-        <h4 id="grid2"><a href="#">Collection Item #2</a></h4>
-        <div class="item-count">29 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid3" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid3"><a href="#">Collection Item #3</a></h4>
-        <div class="item-count">400 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid4" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid4"><a href="#">Collection Item #4</a></h4>
-        <div class="item-count">112 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid5" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid5"><a href="#">Collection Item #5</a></h4>
-        <div class="item-count">82 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid6" class="photo-box">
-        <a href="collection-items.html"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid6"><a href="#">Collection Item #6</a></h4>
-        <div class="item-count">541 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid7" class="photo-box">
-        <a href="#"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid7"><a href="#">Collection Item #7</a></h4>
-        <div class="item-count">143 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-      <article aria-labelledby="grid8" class="photo-box">
-        <a href="#"><img alt="enter descriptive text" src="images/265x265.png"/></a>
-        <h4 id="grid8"><a href="#">Collection Item #8</a></h4>
-        <div class="item-count">143 Items</div>
-        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero</p>
-      </article>
-    </div>
-  </main>
-</div>
-<footer>
-  <div class="contain-970">
-    <div class="footer-content">
-      <a href="http://www.northwestern.edu"><img src="https://common.northwestern.edu/v8/css/images/northwestern-university.svg" alt="Northwestern University" /></a>
-      <ul>
-        <li>&copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Northwestern University</li>
-        <li><a href="http://www.northwestern.edu/contact.html">Contact Northwestern University</a></li>
-        <li><a href="http://www.northwestern.edu/hr/careers/">Careers</a></li>
-        <li><a href="http://www.northwestern.edu/disclaimer.html">Disclaimer</a></li>
-        <li><a href="http://www.northwestern.edu/emergency/index.html">Campus Emergency Information</a></li>
-        <li><a href="http://policies.northwestern.edu/">University Policies</a></li>
-      </ul>
-    </div>
-    <div class="footer-content contact">
-      <ul>
-        <li class="footer-pin-icon"><span class="hide-label">Address</span></li>
-        <li>1970 Campus Drive</li>
-        <li>Evanston, IL 60208</li>
-      </ul>
-      <ul>
-        <li class="footer-phone-icon"><span class="hide-label">Phone number</span></li>
-        <li>(847) 491-7658</li>
-      </ul>
-      <ul>
-        <li class="footer-email-icon"><span class="hide-label">Email address</span></li>
-        <li><a href="mailto:library@northwestern.edu">library@northwestern.edu</a></li>
-      </ul>
-    </div>
-    <div class="footer-content">
-      <!-- change (department name) to your dept. -->
-      <p><strong>(Department Name) Social Media</strong></p>
-      <a href="#" class="social github">Github</a>
-      <a href="#" class="social facebook">Facebook</a>
-      <a href="#" class="social twitter">Twitter</a>
-      <a href="#" class="social social instagram">Instagram</a>
-    </div>
-    <div class="footer-content">
-      <ul>
-        <li><a href="http://northwestern.libanswers.com/">FAQs</a></li>
-        <li><a href="http://www.library.northwestern.edu/about/support/index.html">Support Us</a></li>
-        <li><a href="http://www.library.northwestern.edu/about/library-jobs/index.html">Library Jobs</a></li>
-        <li><a href="http://www.library.northwestern.edu/about/administration/policies/index.html">Library Policies</a></li>
-        <li><a href="http://www.library.northwestern.edu/about/contact/general-feedback.html">Provide Feedback</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/search.js"></script>
-</body>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+    </body>
 </html>
