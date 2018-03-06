@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
+        <link rel="stylesheet" href="css/swiper/swiper.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+        <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
+        <!-- <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> -->
+
+            <title>Digital Collections - Libraries - Northwestern University</title>
+    </head>
+
+    <body class="standard-page">
+
+        <!--[if lt IE 9]>
+            <div id="ie">
+            <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie8-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+            </div>
+        <![endif]-->
+
+        <header>
+            <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+            <div id="top-bar">
+                <div class="contain-1120">
+                    <div id="left">
+                        <div id="northwestern">
+                            <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+                        </div>
+                        <div id="parent-unit">
+                            <a href="#">Parent Unit Name</a>
+                        </div>
+                    </div>
+                    <div id="global-links" aria-label="global links navigation">
+                        <ul>
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a></li>
+                            <li class="resources">Global Dropdown <span class="dropdown-arrow"></span>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="quick-links" aria-label="quick links navigation">
+                <ul>
+                    <li><a href="#">Quick Link 1</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="bottom-bar" class="contain-1120">
+                <div id="site-name">
+                    <h1><a href="index.html">LIBRARIES - DIGITAL COLLECTIONS</a></h1>
+                </div>
+
+                <!--
+                    <div id="search" class="hide-mobile">
+                    <div class="search-form searchblox">
+                    <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                    <label class="hide-label" for="q-desktop">Search this website</label>
+                    <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
+                    <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                    <input type="hidden" name="advanced" value="false"/>
+                    <button type="submit"><span class="hide-label">Search</span></button>
+                    </form>
+                    </div>
+
+                    </div>
+                -->
+
+            </div>
+            <div id="mobile-links">
+                <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+                <nav id="mobile-nav" aria-label="mobile menu">
+                    <ul>
+                        <li tabindex="0"><a href="#">About Digital Collections</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                        </li>
+                        <li><a href="#">Browse</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Subject</a></li>
+                                <li><a href="#">Worktype</a></li>
+                                <li><a href="#">Creator</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Collection Types</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Level 2, Link 1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="mobile-nav-bottom">
+                        <!-- from #global-links -->
+                        <ul id="mobile-nav-bottom-left">
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- from #quick-links -->
+                        <ul id="mobile-nav-bottom-right">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+            </div>
+        </header>
+
+        <nav id="top-nav" aria-label="main navigation menu">
+            <div class="contain-1120">
+                <ul>
+                    <li><a href="#">About Digital Collections</a>
+                    </li>
+                    <li><a href="#">Browse <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li>
+                                <ul>
+                                    <li><a href="#">Subject</a></li>
+                                    <li><a href="#">Worktype</a></li>
+                                    <li><a href="#">Creator</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Collection Types <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li class="nav-intro">
+                                <p class="intro">Header</p>
+                                <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
+                            </li>
+                            <li class="nav-links">
+                                <ul>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                    <li><a href="#">Link 5</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="library-search-button">
+                        <a href="#">&nbsp;<span class="hide-label">Click to open search menu</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search Wrapper -->
+        <div class="relative-wrapper contain-1440">
+            <section class="contain-1440 home-search" id="library-search-dropdown">
+                <div class="contain-1120">
+                    <div class="section-top">
+                        <p class="subhead">Explore 729,730 items digitized from Northwestern's digital collections.</p>
+                    </div>
+                    <div class="for-column">
+                        <span>for</span>
+                        <input class="searchbox" maxlength="256" name="query" placeholder="Ex: Cleopatra" size="20" title="search" type="text" value="">
+                        <button type="submit"><span class="hide-label">Search</span></button>
+                        <div class="advanced-search">
+                            <a href="#">Advanced Search</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div id="page" class="collection-items">
+
+            <!--
+                <nav id="left-nav" aria-label="section navigation menu" tabindex="-1">
+                <h2><a href="#">Section Header</a></h2>
+                <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#" class="active">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                </ul>
+                </nav>
+            -->
+            <div id="sidebar" class="left-sidebar content" tabindex="-1">
+                <div class="box">
+                    <div id="tab-container">
+                        <ul id="tabs" role="tablist">
+                            <li role="presentation"><a aria-controls="tab-panel1" href="#tab-panel1" id="tab1" role="tab">About</a></li>
+                            <li role="presentation"><a aria-controls="tab-panel2" href="#tab-panel2" id="tab2" role="tab">Filters</a></li>
+                        </ul>
+                        <div id="tab-content">
+                            <!-- About -->
+                            <div aria-labelledby="tab1" id="tab-panel1" role="tabpanel">
+                                <h3>Collection Description</h3>
+                                <p>No description </p>
+
+
+                                <h4>Dates / Origin</h4>
+                                <ul>
+                                    <li><a href="#">Date Created: <a href="#">Circa 1916</a> (Approximate)</li>
+                                </ul>
+                                <h4>Library Locations</h4>
+                                <ul>
+                                    <li>MAIN Library</li>
+                                </ul>
+                            </div>
+
+                            <!-- Filter -->
+                            <div aria-labelledby="tab2" id="tab-panel2" role="tabpanel">
+
+                                <div class="web-form">
+                                    <div class="search-bar-wrapper">
+                                        <input type="text" placeholder="Search this collection" />
+                                        <span id="sidebar-search-icon" class="fa fa-search sidebar-search-icon"></span>
+                                    </div>
+                                </div>
+
+                                <div class="expander expander1" data-collapse="data-collapse">
+                                    <h3 class="open">Subject</h3>
+                                    <ul class="facet-list no-style">
+                                        <li class="active">
+                                            <span class="close fa fa-close"></span> Active filtered topic (won't display below)
+                                        </li>
+
+                                        <li><a href = "#">Film posters<span class="count">100</span></a></li>
+                                        <li><a href = "#">Persian language<span class="count">100</span></a></li>
+                                        <li><a href = "#">Revolution (Iran : 1979)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Iranians<span class="count">100</span></a></li>
+                                        <li><a href = "#">Post-revolution: Art House (Drama)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Pre-revolution: Film Farsi (Stewpot)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Post-revolution: Art House (Women's Film)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Iranian Movie Poster<span class="count">100</span></a></li>
+                                        <li><a href = "#">Post-revolution: Art House (War)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Iranian Exilic and Diaspora Cinema<span class="count">100</span></a></li>
+                                        <li><a href = "#">Pre-revolution: Film Farsi (Tough Guy/Luti Film)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Pre-revolution: Film Farsi (Drama)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Pre-revolution: Film Farsi (Romance)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Post-revolution: Art House (Comedy)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Pre-revolution: Art House (New Wave)<span class="count">100</span></a></li>
+                                        <li><a href = "#">Hamid Naficy Iranian Cinema Talks<span class="count">100</span></a></li>
+                                        <li><a href = "#">Post-revolution: Documentary<span class="count">100</span></a></li>
+                                        <li><a href = "#">Film festivals<span class="count">100</span></a></li>
+                                        <li><a href = "#">Iranian Cinema Talk/Symposia<span class="count">100</span></a></li>
+                                        <li><a href = "#">Iranian diaspora<span class="count">100</span></a></li>
+                                    </ul>
+                                    <h3>Name</h3>
+                                    <ul class="facet-list no-style">
+
+                                        <li><a href = "#">Unknown (unknown cultural designation)<span class = "count">111</span></li>
+                                        <li><a href = "#">Ebrahim Haghighi<span class = "count">111</span></li>
+                                        <li><a href = "#">Mohsen Makhmalbaf<span class = "count">111</span></li>
+                                        <li><a href = "#">Hassan Hassandoost<span class = "count">111</span></li>
+                                        <li><a href = "#">Kiarostami, Abbas (Iranian filmmaker, 1940-2016)<span class = "count">111</span></li>
+                                        <li><a href = "#">Abbas Ganjavi<span class = "count">111</span></li>
+                                        <li><a href = "#">Alireza Zarrin<span class = "count">111</span></li>
+                                        <li><a href = "#">Reza Abedini<span class = "count">111</span></li>
+                                        <li><a href = "#">S. Valipour<span class = "count">111</span></li>
+                                        <li><a href = "#">Dariush Mehrjui<span class = "count">111</span></li>
+                                        <li><a href = "#">The Advertising House of Iran (Khane-ye Agahi-e Iran)<span class = "count">111</span></li>
+                                        <li><a href = "#">Bahram Beyzai<span class = "count">111</span></li>
+                                        <li><a href = "#">Farabi Cinema Foundation<span class = "count">111</span></li>
+                                        <li><a href = "#">Ruhollah Emami<span class = "count">111</span></li>
+                                        <li><a href = "#">Ebrahim Forouzesh<span class = "count">111</span></li>
+                                        <li><a href = "#">Farid Mostafavi<span class = "count">111</span></li>
+                                        <li><a href = "#">Shirin Vahidi<span class = "count">111</span></li>
+                                        <li><a href = "#">Alireza Raissian<span class = "count">111</span></li>
+                                        <li><a href = "#">Heddat, Mohammad-Ali<span class = "count">111</span></li>
+                                        <li><a href>MORE...</a><span class = "count">111</span></li>
+
+                                    </ul>
+
+                                    <h3>Collection</h3>
+                                    <ul class="facet-list no-style">
+                                        <li class="active">
+                                            <span class="close fa fa-close"></span> This current collection
+                                        </li>
+                                        <li>
+                                            <a href="#">Hamid Naficy Iranian Collection</a>
+                                        </li>
+                                    </ul>
+
+                                    <h3>Library Unit</h3>
+                                    <ul class="facet-list no-style">
+                                        <li><a href="#">MAIN Library<span class="count">100</span></a></li>
+                                    </ul>
+                                    <h3>Work Type</h3>
+                                    <ul class="facet-list no-style">
+                                        <li><a href="#">Posters</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <main id="main-content" class="content" tabindex="-1">
+            <ul id="breadcrumbs">
+                <li><a href="collections.html">Collections</a></li>
+                <li class="active">
+                    Wilmo Engine Company dealer's sample catalog</li>
+            </ul>
+            <h2>Hamid Naficy Iranian Movie Posters Collection</h2>
+            <!--
+                <p>Ea augue legimus intellegat pri, vel congue democritum ei. Errem tibique vivendum at nec, cu accusam menandri dissentias vel, in mei facilisi expetendis. Ut sed accusata definitiones, dicat inciderint at per. Ad quot persecuti quo. In eos errem eirmod apeirian, nam et etiam aliquid. Inani theophrastus per ex, diceret gloriatur has at.</p>
+            -->
+
+            <div class="section">
+                <div class="photo-grid three-grid">
+
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-7bb3fed8-4b90-422b-af72-0f524201b223/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                11th annual Iranian film festival. Rice Univers...
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-6e4c0833-5f1e-4d10-b4a2-5300164819e9/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                2nd Persian International Film Festival. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-f73431ab-51d3-4efa-b2e2-c4ea36eb0706/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                3 by Sayyad: A Filmmaker in Exile. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-f577c1d9-290f-435c-9b90-55c4adce1aed/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A Selection of Images in Ghajar Dynasty. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-268953f1-4da5-4ce4-9496-6b2ce1979af2/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A Selection of Images in Ghajar Dynasty. Versos.
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-a0905a5a-421c-46b4-b9a8-cbf5e8158877/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A Starless Man. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-62542d17-6e12-4a81-b4f0-2be3df533571/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Afterimage: Kamran Shirdel. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-0fbcabf0-0e33-4607-8f84-b426a33bb34b/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Afterimage: Kamran Shirdel. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-a2ca0546-2ca6-4e9b-a796-8fc6ae70cacb/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Ali Baba. Rectos
+
+                            </a></h4>
+                    </article>
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-d12967cc-331e-4136-9a5a-e1a9653626c9/square/,265/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Ali the Carriage Driver. Rectos
+
+                            </a></h4>
+                    </article>
+
+                </div>
+            </div>
+            </main>
+        </div>
+        <footer>
+            <div class="contain-970">
+                <div class="footer-content">
+                    <a href="http://www.northwestern.edu"><img src="https://common.northwestern.edu/v8/css/images/northwestern-university.svg" alt="Northwestern University" /></a>
+                    <ul>
+                        <li>&copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Northwestern University</li>
+                            <li><a href="http://www.northwestern.edu/contact.html">Contact Northwestern University</a></li>
+                            <li><a href="http://www.northwestern.edu/hr/careers/">Careers</a></li>
+                            <li><a href="http://www.northwestern.edu/disclaimer.html">Disclaimer</a></li>
+                            <li><a href="http://www.northwestern.edu/emergency/index.html">Campus Emergency Information</a></li>
+                            <li><a href="http://policies.northwestern.edu/">University Policies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content contact">
+                    <ul>
+                        <li class="footer-pin-icon"><span class="hide-label">Address</span></li>
+                        <li>1970 Campus Drive</li>
+                        <li>Evanston, IL 60208</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-phone-icon"><span class="hide-label">Phone number</span></li>
+                        <li>(847) 491-7658</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-email-icon"><span class="hide-label">Email address</span></li>
+                        <li><a href="mailto:library@northwestern.edu">library@northwestern.edu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <!-- change (department name) to your dept. -->
+                    <p><strong>(Department Name) Social Media</strong></p>
+                    <a href="#" class="social github">Github</a>
+                    <a href="#" class="social facebook">Facebook</a>
+                    <a href="#" class="social twitter">Twitter</a>
+                    <a href="#" class="social social instagram">Instagram</a>
+                </div>
+                <div class="footer-content">
+                    <ul>
+                        <li><a href="http://northwestern.libanswers.com/">FAQs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/support/index.html">Support Us</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/library-jobs/index.html">Library Jobs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/administration/policies/index.html">Library Policies</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/contact/general-feedback.html">Provide Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+    </body>
+</html>
