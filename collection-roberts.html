@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />-->
+        <link rel="stylesheet" href="css/swiper/swiper.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+        <!--[if lt IE 9]><script src="//common.northwestern.edu/v8/js/html5shiv-printshiv.js"></script><![endif]-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" />
+        <!-- <link rel="stylesheet" href="css/nulib.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
+            <link rel="stylesheet" href="css/print.css" type="text/css" media="print" /> -->
+
+            <title>Digital Collections - Libraries - Northwestern University</title>
+    </head>
+
+    <body class="standard-page">
+
+        <!--[if lt IE 9]>
+            <div id="ie">
+            <p><img src="https://common.northwestern.edu/v8/css/images/icons/ie8-warning.png" alt="Warning icon" /> Your browser is <strong>out-of-date</strong> and has known <strong>security flaws</strong>. We recommend you update your browser: <a href="http://www.google.com/chrome/" target="_blank">Chrome</a> - <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> - <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Internet Explorer</a> - <a href="https://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+            </div>
+        <![endif]-->
+
+        <header>
+            <a href="#main-content" class="screen-reader-shortcut">Skip to main content</a>
+            <div id="top-bar">
+                <div class="contain-1120">
+                    <div id="left">
+                        <div id="northwestern">
+                            <a href="http://www.northwestern.edu/" title="Northwestern University Home"><span class="hide-label">Northwestern University</span></a>
+                        </div>
+                        <div id="parent-unit">
+                            <a href="#">Parent Unit Name</a>
+                        </div>
+                    </div>
+                    <div id="global-links" aria-label="global links navigation">
+                        <ul>
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a></li>
+                            <li class="resources">Global Dropdown <span class="dropdown-arrow"></span>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="quick-links" aria-label="quick links navigation">
+                <ul>
+                    <li><a href="#">Quick Link 1</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="bottom-bar" class="contain-1120">
+                <div id="site-name">
+                    <h1><a href="index.html">LIBRARIES - DIGITAL COLLECTIONS</a></h1>
+                </div>
+
+                <!--
+                    <div id="search" class="hide-mobile">
+                    <div class="search-form searchblox">
+                    <form action="https://searchsite.northwestern.edu/searchblox/default_frontend/index.html" method="get" role="search">
+                    <label class="hide-label" for="q-desktop">Search this website</label>
+                    <input id="q-desktop" name="query" placeholder="Search this site" type="text"/>
+                    <input type="hidden" name="filter" value="http://www.northwestern.edu/YOUR_SITE"/>
+                    <input type="hidden" name="advanced" value="false"/>
+                    <button type="submit"><span class="hide-label">Search</span></button>
+                    </form>
+                    </div>
+
+                    </div>
+                -->
+
+            </div>
+            <div id="mobile-links">
+                <a href="#mobile-nav" class="mobile-link mobile-nav-link"><span class="hide-label">Menu</span></a>
+                <nav id="mobile-nav" aria-label="mobile menu">
+                    <ul>
+                        <li tabindex="0"><a href="#">About Digital Collections</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                        </li>
+                        <li><a href="#">Browse</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Subject</a></li>
+                                <li><a href="#">Worktype</a></li>
+                                <li><a href="#">Creator</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Collection Types</a><span class="arrow"><a aria-haspopup="true" href="#" role="button"><span>Expand</span> Submenu</a></span>
+                            <ul aria-expanded="false" aria-hidden="true">
+                                <li><a href="#">Level 2, Link 1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="mobile-nav-bottom">
+                        <!-- from #global-links -->
+                        <ul id="mobile-nav-bottom-left">
+                            <li><a href="#">Global Link 1</a></li>
+                            <li><a href="#">Global Link 2</a>
+                                <ul>
+                                    <li><a href="#">Global Drop Link 1</a></li>
+                                    <li><a href="#">Global Drop Link 2</a></li>
+                                    <li><a href="#">Global Drop Link 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- from #quick-links -->
+                        <ul id="mobile-nav-bottom-right">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="#mobile-search" class="mobile-link mobile-search-link"><span class="hide-label">Search</span></a>
+            </div>
+        </header>
+
+        <nav id="top-nav" aria-label="main navigation menu">
+            <div class="contain-1120">
+                <ul>
+                    <li><a href="#">About Digital Collections</a>
+                    </li>
+                    <li><a href="#">Browse <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li>
+                                <ul>
+                                    <li><a href="#">Subject</a></li>
+                                    <li><a href="#">Worktype</a></li>
+                                    <li><a href="#">Creator</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Collection Types <span class="dropdown-arrow"></span></a>
+                        <ul class="dropdown" aria-label="navigation submenu">
+                            <li class="nav-intro">
+                                <p class="intro">Header</p>
+                                <a href="#" class="button" aria-label="enter descriptive text">Optional Button</a>
+                            </li>
+                            <li class="nav-links">
+                                <ul>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                    <li><a href="#">Link 5</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="library-search-button">
+                        <a href="#">&nbsp;<span class="hide-label">Click to open search menu</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search Wrapper -->
+        <div class="relative-wrapper contain-1440">
+            <section class="contain-1440 home-search" id="library-search-dropdown">
+                <div class="contain-1120">
+                    <div class="section-top">
+                        <p class="subhead">Explore 729,730 items digitized from Northwestern's digital collections.</p>
+                    </div>
+                    <div class="for-column">
+                        <span>for</span>
+                        <input class="searchbox" maxlength="256" name="query" placeholder="Ex: Cleopatra" size="20" title="search" type="text" value="">
+                        <button type="submit"><span class="hide-label">Search</span></button>
+                        <div class="advanced-search">
+                            <a href="#">Advanced Search</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div id="page" class="collection-items">
+
+            <!--
+                <nav id="left-nav" aria-label="section navigation menu" tabindex="-1">
+                <h2><a href="#">Section Header</a></h2>
+                <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#" class="active">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                </ul>
+                </nav>
+            -->
+            <div id="sidebar" class="left-sidebar content" tabindex="-1">
+                <div class="box">
+                    <div id="tab-container">
+                        <ul id="tabs" role="tablist">
+                            <li role="presentation"><a aria-controls="tab-panel1" href="#tab-panel1" id="tab1" role="tab">About</a></li>
+                            <li role="presentation"><a aria-controls="tab-panel2" href="#tab-panel2" id="tab2" role="tab">Filters</a></li>
+                        </ul>
+                        <div id="tab-content">
+                            <!-- About -->
+                            <div aria-labelledby="tab1" id="tab-panel1" role="tabpanel">
+                                <h3>Collection Description</h3>
+                                <p>
+
+James (Jim) Roberts earned his bachelor’s degree from Northwestern University, master’s and Ph.D. degrees from the University of Iowa, and an M.B.A. from Duke’s Fuqua School of Business. He currently serves as the Executive Vice Provost for Finance and Administration at Duke University. The James Roberts photographs range in date from 1968-1972, the years when Roberts was a student at Northwestern. Although Roberts was a history major, his primary passion was photography, and he considers its practice a substantial part of his education. Roberts arrived at Northwestern in 1968. He quickly became acquainted with the photography community in Evanston, and in 1969 joined the staff of the Syllabus yearbook. During 1969-1972, Roberts documented Northwestern life intensively, and made occasional forays into the surrounding Evanston and Chicago environs. He also spent a quarter studying abroad in Cuernavaca, Mexico at the Centro Intercultural de Documentation, an important site of Catholic social activism in Mexico. The late 1960s and early 1970s were remarkable years at Northwestern, in Chicago, and around the world. The photos Roberts took, many published in the ’70, ’71, and ’72 editions of the Syllabus, artfully documented both the mundane (i.e. Evanston street scenes, football games, dining hall kitchen staff) and the extraordinary (i.e., the March on Washington, Vietnam War protests, student clashes with police, and street life in Mexico).
+
+                                <h4>Dates / Origin</h4>
+                                <ul>
+                                    <li><a href="#">Date Created: <a href="#">Circa 1916</a> (Approximate)</li>
+                                </ul>
+                                <h4>Library Locations</h4>
+                                <ul>
+                                    <li>Northwestern University Transportation Library</li>
+                                </ul>
+                            </div>
+
+                            <!-- Filter -->
+                            <div aria-labelledby="tab2" id="tab-panel2" role="tabpanel">
+
+                                <div class="web-form">
+                                    <div class="search-bar-wrapper">
+                                        <input type="text" placeholder="Search this collection" />
+                                        <span id="sidebar-search-icon" class="fa fa-search sidebar-search-icon"></span>
+                                    </div>
+                                </div>
+
+                                <div class="expander expander1" data-collapse="data-collapse">
+                                    <h3 class="open">Topic</h3>
+                                    <ul class="facet-list no-style">
+                                        <li class="active">
+                                            <span class="close fa fa-close"></span> Active filtered topic (won't display below)
+                                        </li>
+                                        <li>
+                                            <a href="#">Public figures
+                                                <span class="count">104</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sculptures
+                                                <span class="count">42</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="#">Homes and haunts <span class="count">119</span></a></li>
+                                    </ul>
+                                    <h3>Name</h3>
+                                    <ul class="facet-list no-style">
+                                        <li><a href="#">Napoleon I, Emperor of the French, 1769-1821 <span class="count">632</span></a></li>
+                                        <li><a href="#">Franklin, Benjamin, 1706-1790 <span class="count">13</span></a></li>
+                                        <li><a href="#">Grant, Ulysses S. (Ulysses Simpson), 1822-1885 <span class="count">87</span></a></li>
+                                    </ul>
+                                    <h3>Collection</h3>
+                                    <ul class="facet-list no-style">
+                                        <li class="active">
+                                            <span class="close fa fa-close"></span> This current collection
+                                        </li>
+                                        <li>
+                                            <a href="#">Print Collection portrait file</a>
+                                        </li>
+                                    </ul>
+                                    <h3>Place</h3>
+                                    <ul class="facet-list no-style">
+                                        <li><a href="#">New York City <span class="count">100</span></a></li>
+                                        <li><a href="#">Italy <span class="count">13</span></a></li>
+                                        <li><a href="#">St. Helena <span class="count">276</span></a></li>
+                                    </ul>
+                                    <h3>Genre</h3>
+                                    <ul class="facet-list no-style">
+                                        <li><a href="#">Still image <span class="count">341</span></a></li>
+                                        <li><a href="#">Portrait <span class="count">23</span></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <main id="main-content" class="content" tabindex="-1">
+            <ul id="breadcrumbs">
+                <li><a href="collections.html">Collections</a></li>
+                <li class="active">
+                    Jim Roberts Photographs, 1968-1972</li>
+            </ul>
+            <h2>Jim Roberts Photographs, 1968-1972</h2>
+            <!--
+                <p>Ea augue legimus intellegat pri, vel congue democritum ei. Errem tibique vivendum at nec, cu accusam menandri dissentias vel, in mei facilisi expetendis. Ut sed accusata definitiones, dicat inciderint at per. Ad quot persecuti quo. In eos errem eirmod apeirian, nam et etiam aliquid. Inani theophrastus per ex, diceret gloriatur has at.</p>
+            -->
+
+            <div class="section">
+                <div class="photo-grid three-grid">
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-d44e65a5-0fa5-4e29-9582-c50f3092426a/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                "Strike" sign on construction equipment at Nort...
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-cc03f4c1-762b-4f22-9960-722d706212ed/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                1964 Plymouth Valiant
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-9fe1115c-6626-4b4b-8ecf-c8f79acf7c2a/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                1964 Plymouth Valiant
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-cc5caec9-8b00-464f-8a57-b39c0300c86e/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A classroom in Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-005ad9fc-dced-4540-a0c9-78c87359382f/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A classroom in Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-60b20001-8141-4342-a7cf-513e4acbaaef/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A horse in Cuernavaca, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-29d74aa1-5bb6-489a-93b7-c7571c6d1c91/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A horse in Cuernavaca, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-6d550f5a-6fe6-4616-ad17-36eac07b9825/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A horse in Cuernavaca, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-84682e9e-0ceb-4edc-af95-c6dc912b89ec/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A tunnel in Mexico City, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-377749f8-c958-4fce-ad6d-d3cff54b1895/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A tunnel in Mexico City, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-f4a4adbf-f13a-4d37-88a3-49e53a3fe76f/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A tunnel in Mexico City, Mexico
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-5b5d5a86-6ea9-435a-95f6-3d3bb1651627/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                A woman's shoes
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-784eb5d4-69b4-4133-8d25-83d35b543778/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Abbie Hoffman and other marchers at the Vietnam...
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-5dc9a98e-a805-4fec-8673-0f9e80e6888d/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Abbie Hoffman and other marchers at the Vietnam...
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-9c009970-5a64-4f4b-a7ef-41f31752287e/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Abbie Hoffman and other marchers at the Vietnam...
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-c09a4910-b19b-41ed-8e67-8df14187dd40/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Abstract scene
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-9459ccfe-99e8-4180-bc01-12187415159e/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Adlai E. Stevenson governor poster
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-31359134-7d01-4afb-8a1b-24174bed2af5/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Adlai E. Stevenson governor poster
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-d1785e18-b6bd-4073-8bca-bfb2a8dad500/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Adlai E. Stevenson governor poster
+
+                            </a></h4>
+                    </article>
+
+
+
+                    <article class="photo-box" aria-labelledby="grid1">
+                        <a href="item.html"><img alt="Default" src="https://images.northwestern.edu/image-service/inu-dil-c9e18bcb-cd7a-447a-ac09-bea9566e25c5/full/,256/0/default.jpg"/></a>
+                        <h4 id="grid1"><a href="#">
+
+                                Agave hearts outside a tequila factory
+
+                            </a></h4>
+                    </article>
+
+                </div>
+            </div>
+            </main>
+        </div>
+        <footer>
+            <div class="contain-970">
+                <div class="footer-content">
+                    <a href="http://www.northwestern.edu"><img src="https://common.northwestern.edu/v8/css/images/northwestern-university.svg" alt="Northwestern University" /></a>
+                    <ul>
+                        <li>&copy; <script type="text/javascript">document.write(new Date().getFullYear())</script> Northwestern University</li>
+                            <li><a href="http://www.northwestern.edu/contact.html">Contact Northwestern University</a></li>
+                            <li><a href="http://www.northwestern.edu/hr/careers/">Careers</a></li>
+                            <li><a href="http://www.northwestern.edu/disclaimer.html">Disclaimer</a></li>
+                            <li><a href="http://www.northwestern.edu/emergency/index.html">Campus Emergency Information</a></li>
+                            <li><a href="http://policies.northwestern.edu/">University Policies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content contact">
+                    <ul>
+                        <li class="footer-pin-icon"><span class="hide-label">Address</span></li>
+                        <li>1970 Campus Drive</li>
+                        <li>Evanston, IL 60208</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-phone-icon"><span class="hide-label">Phone number</span></li>
+                        <li>(847) 491-7658</li>
+                    </ul>
+                    <ul>
+                        <li class="footer-email-icon"><span class="hide-label">Email address</span></li>
+                        <li><a href="mailto:library@northwestern.edu">library@northwestern.edu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <!-- change (department name) to your dept. -->
+                    <p><strong>(Department Name) Social Media</strong></p>
+                    <a href="#" class="social github">Github</a>
+                    <a href="#" class="social facebook">Facebook</a>
+                    <a href="#" class="social twitter">Twitter</a>
+                    <a href="#" class="social social instagram">Instagram</a>
+                </div>
+                <div class="footer-content">
+                    <ul>
+                        <li><a href="http://northwestern.libanswers.com/">FAQs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/support/index.html">Support Us</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/library-jobs/index.html">Library Jobs</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/administration/policies/index.html">Library Policies</a></li>
+                        <li><a href="http://www.library.northwestern.edu/about/contact/general-feedback.html">Provide Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+    </body>
+</html>
